@@ -1,0 +1,258 @@
+/* general styles */
+
+body {
+    background: #ee588a
+}
+
+h1{
+    text-align: center;
+}
+
+h1, h2 {
+    font-family: 'Red Hat Display', sans-serif;
+}
+
+p, a, ul {
+    font-family: 'Raleway', sans-serif;
+    font-size: larger;
+}
+
+#projects, #about, #waiut, #contact {
+    background-color: #e2dcde;
+    border-radius: 25px;
+    padding-top: 3em;
+    padding-bottom: 3em;
+    padding-left: 5em;
+    padding-right: 5em;
+    margin: 7em;
+}
+
+.shadow {
+    box-shadow: 5px 5px 10px 2px rgba(103, 18, 46, 0.2);
+}
+
+/* navbar */
+#navbar {
+    background-color: #dddddd;
+    position: fixed;
+    top: 0;
+    width: 100%;
+    left: 0;
+    color:#402e2a;
+}
+#navbar ul{
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+}
+#navbar li a:hover {
+    background-color: #d8cace;
+}
+#navbar li a {
+    /* display: inline;
+    float: left; */
+    display: block;
+    color:#402e2a;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    font-size: 1.2em;
+    float: left;
+}
+
+/* intro */
+#intro{
+    margin-top: 7em;
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    padding-left: 5em;
+    padding-right: 5em;
+    animation: fadeInAnimation ease 2s;
+}
+@keyframes fadeInAnimation {
+    0% {
+        opacity: 0;
+    }
+    100% {
+        opacity: 1;
+     }
+}
+
+#intro h1{
+    font-size: xx-large;
+    text-align: right;
+    vertical-align: bottom;
+    grid-column: 1;
+    text-shadow: 2px 2px rgba(103, 18, 46, 0.2);
+}
+#intro p{
+    grid-column: 1;
+    text-align: right;
+    vertical-align: bottom;
+    padding-right: 1em;
+    font-size: x-large;
+    text-shadow: 2px 2px rgba(103, 18, 46, 0.2);
+}
+#intro img{
+    grid-column: 2;
+    max-width: 60%;
+    height: auto;
+    border-radius: 25px;
+    margin-top: 1em;
+    box-shadow: 5px 5px 10px 2px rgba(103, 18, 46, 0.2);
+}
+img{
+    max-width: 100%;
+    height: auto;
+}
+
+/* projects */
+#projects h1{
+    text-align: center;
+}
+#projects ul{
+    font-size: medium;
+}
+#projects a{
+    color:#402e2a;
+}
+#projects a:hover{
+    color: #a385a7;
+}
+
+#audiovis{
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    padding-top: 3em;
+    grid-column-gap: 3em;
+}
+#audio-vis-gif {
+    grid-column: 1;
+    height:37em;
+}
+#audio-vis-text {
+    grid-column: 2;
+} 
+
+#switch{
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    grid-column-gap: 3em;
+    padding-top: 3em;
+}
+#switch-gif{
+    grid-column: 1;
+    height:37em;
+}
+#switch-text{
+    grid-column: 2;
+}
+
+#cat-cafe{
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    grid-column-gap: 3em;
+    padding-top: 3em;
+}
+#cat-cafe-gif{
+    grid-column: 1;
+    height: 37em;
+}
+#cat-cafe-text{
+    grid-column: 2;
+}
+
+#personal {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    grid-column-gap: 3em;
+    padding-top: 3em;
+}
+#personal-gif{
+    grid-column: 1;
+}
+#personal-text{
+    grid-column: 2;
+}
+
+
+/* skills */
+#skills-list{
+    display: flex;
+    flex-wrap: wrap;
+    align-items: stretch;
+    justify-content: center;
+}
+#skills-section h1{
+    text-align: center;  
+}
+
+#languages h2, #tools h2, #skills h2{
+    text-align: center;
+    flex-grow: 1;
+    padding-left: 2.7em;
+}
+#languages ul, #tools ul, #skills ul{
+    list-style-type: none;
+    padding-left: 3.1em;
+}
+
+#languages
+{
+    text-align: center;
+    flex-grow: 1;
+}
+#tools{
+    text-align: center;  
+    flex-grow: 1;
+}
+#skills{
+    text-align: center;  
+    flex-grow: 1;
+}
+
+/* waiut */
+#waiut img{
+    display:block;
+    margin-left: auto;
+    margin-right: auto;
+}
+#waiut-content{
+    display: flex;
+    flex-direction: row;
+}
+#waiut h2{
+    text-align: center;
+}
+#waiut-desc {
+    text-align: center;
+}
+#waiut-content p{
+    text-align: justify;
+}
+#graphics-engine{
+    padding-right: 2em;
+}
+#unreal-learning img{
+    max-height: 63%;
+}
+
+/* contact */
+footer p{
+    text-align: center;
+    padding-left: 2em;
+    font-size: x-large;
+}
+#contact-info{
+    display: flex;
+    list-style-type: none;
+    flex-wrap: wrap;
+    justify-content: center; 
+    align-items: center;
+    margin: 0 auto;
+}
+
+#contact-info li{
+    padding: 1em;
+}
