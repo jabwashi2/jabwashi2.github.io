@@ -82,3 +82,6 @@ references:
 fonts:
 - Headers: https://fonts.google.com/specimen/Red+Hat+Display?category=Sans+Serif,Display&vfonly=true&classification=Display&stroke=Sans+Serif
 - Paragraphs: https://fonts.google.com/specimen/Raleway?category=Sans+Serif,Display&vfonly=true&stroke=Sans+Serif
+
+*******Component Plans:*******
+- 
