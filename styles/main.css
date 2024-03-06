@@ -65,8 +65,6 @@ p {
     background-color: #d8cace;
 }
 #navbar li a {
-    /* display: inline;
-    float: left; */
     display: block;
     color:white;
     text-align: center;
@@ -79,10 +77,6 @@ p {
 /* intro */
 #intro{
     margin-top: 13em;
-    /* display: grid;
-    grid-template-columns: repeat(2, 1fr); */
-    /* padding-left: 5em;
-    padding-right: 5em; */
     animation: fadeInAnimation ease 2s;
 }
 @keyframes fadeInAnimation {
@@ -96,25 +90,7 @@ p {
 
 #intro h1{
     font-size: 10em;
-    /* text-align: right; */
-    /* vertical-align: bottom;
-    text-shadow: 2px 2px rgba(103, 18, 46, 0.2); */
 }
-#intro p{
-    text-align: right;
-    vertical-align: bottom;
-    padding-right: 1em;
-    font-size: x-large;
-    text-shadow: 2px 2px rgba(103, 18, 46, 0.2);
-}
-/* #intro img{
-    grid-column: 2;
-    max-width: 60%;
-    height: auto;
-    border-radius: 25px;
-    margin-top: 1em;
-    box-shadow: 5px 5px 10px 2px rgba(103, 18, 46, 0.2);
-} */
 img{
     max-width: 100%;
     height: auto;
@@ -185,8 +161,6 @@ img{
 }
 #audio-vis-text {
     grid-column: 2;
-    /* display: flex;
-    flex-direction: column; */
 } 
 
 #switch{
@@ -324,4 +298,35 @@ footer p{
 
 #contact-info li{
     padding: 1em;
+}
+
+/* media queries */
+@media screen and (max-width: 400px) {
+    #intro h1{
+        font-size: 6.5em;
+        text-align: center;
+    }
+
+    .proj{
+        width: 100svw;
+    }
+
+    #projects, #about, #waiut, #contact{
+        padding: 0;
+        margin: 0;
+    }
+
+    #projects p, #about p, #waiut p, #contact p{
+        width: 110vw;
+    }
+
+    #dx11-gif, #bgdh-gif, #personal-gif {
+        width:20em;
+        height:20em;
+    }
+
+    #audio-vis-gif, #switch-gif, #cat-cafe-gif{
+        max-width: 100em!important;
+        height: 30em; 
+    }
 }
