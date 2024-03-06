@@ -21,6 +21,14 @@ p, a, ul {
     font-family: 'Montserrat', sans-serif;
 }
 
+p, li {
+    font-size: 1.2em;
+}
+
+p {
+    text-align: justify;
+}
+
 #projects, #about, #waiut, #contact {
     border-radius: 25px;
     padding-top: 2em;
@@ -70,7 +78,7 @@ p, a, ul {
 
 /* intro */
 #intro{
-    margin-top: 7em;
+    margin-top: 13em;
     /* display: grid;
     grid-template-columns: repeat(2, 1fr); */
     /* padding-left: 5em;
@@ -131,6 +139,41 @@ img{
     color: #e3d3e6;
 }
 
+#dx11-text p, #bgdh-text p, #audio-vis-text p, #switch-text p, #cat-cafe-text p, #personal-text p {
+    float: right;
+    padding-right: 1.5em;
+}
+
+#dx11{
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    grid-column-gap: 3em;
+    margin-top: 3em;
+}
+#dx11-gif{
+    grid-column: 1;
+    width: 37em;
+    height:37em;
+}
+#dx11-text{
+    grid-column: 2;
+}
+
+#bgdh{
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    grid-column-gap: 3em;
+    margin-top: 3em;
+}
+#bgdh-gif{
+    grid-column: 1;
+    width: 37em;
+    height:37em;
+}
+#bgdh-text{
+    grid-column: 2;
+}
+
 #audiovis{
     display: grid;
     grid-template-columns: repeat(2, 1fr);
@@ -145,10 +188,6 @@ img{
     /* display: flex;
     flex-direction: column; */
 } 
-#audio-vis-text p {
-    float: right;
-    padding-right: 1.5em;
-}
 
 #switch{
     display: grid;
@@ -186,6 +225,8 @@ img{
 }
 #personal-gif{
     grid-column: 1;
+    width: 37em;
+    height:37em;
 }
 #personal-text{
     grid-column: 2;
@@ -227,6 +268,19 @@ img{
     flex-grow: 1;
 }
 
+#about-desc {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    grid-column-gap: 3em;
+    margin-top: 3em;
+}
+#about-img {
+    grid-column: 1;
+}
+#about-desc p {
+    grid-column: 2;
+}
+
 /* waiut */
 #waiut img{
     display:block;
@@ -249,8 +303,8 @@ img{
 #graphics-engine{
     padding-right: 2em;
 }
-#unreal-learning img{
-    max-height: 63%;
+#unreal-learning{
+    padding-left: 2em;
 }
 
 /* contact */
