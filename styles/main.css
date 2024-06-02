@@ -46,34 +46,6 @@ p {
     box-shadow: 5px 5px 10px 2px #e4588a;
 }
 
-/* navbar */
-#navbar {
-    background-color: #e4588a;
-    position: fixed;
-    top: 0;
-    width: 100%;
-    left: 0;
-    color: white;
-}
-#navbar ul{
-    list-style-type: none;
-    margin: 0;
-    padding: 0;
-    overflow: hidden;
-}
-#navbar li a:hover {
-    background-color: #d8cace;
-}
-#navbar li a {
-    display: block;
-    color:white;
-    text-align: center;
-    padding: 20px 20px;
-    text-decoration: none;
-    font-size: 1.5em;
-    float: right;
-}
-
 /* intro */
 #intro{
     margin-top: 13em;
@@ -89,7 +61,11 @@ p {
 }
 
 #intro h1{
-    font-size: 10em;
+    font-size: 8.5em;
+}
+#intro p{
+    text-align: center;
+    font-size: 2rem;
 }
 img{
     max-width: 100%;

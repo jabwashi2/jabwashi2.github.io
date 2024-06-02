@@ -45,11 +45,11 @@ const template = document.createElement("template");
     </style>
     <nav id="navbar">
         <ul>
-            <li><a href="#contact-info">Contact</a></li>
-            <li><a href="#waiut">What Am I Up To?</a></li>
-            <li><a href="#about">About</a></li>
+            <li><a href="index.html#contact-info">Contact</a></li>
+            <li><a href="index.html#waiut">What Am I Up To?</a></li>
+            <li><a href="index.html#about">About</a></li>
             <li class="dropdown">
-                <a href="#projects" class="dropbtn">Projects</a>
+                <a href="javascript:void(0)" class="dropbtn">Projects</a>
                 <div class="dropdown-content">
                     <a href="web.html">Web Projects</a>
                     <a href="game.html">Game Projects</a>
