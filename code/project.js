@@ -4,6 +4,9 @@
 
 const template = document.createElement("template");
     template.innerHTML = `
+    <style>
+        
+    </style>
     <h1></h1>
     <iframe></iframe>
     <p></p>

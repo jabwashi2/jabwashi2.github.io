@@ -90,3 +90,5 @@ fonts:
 
 *******Notes:*******
 - try using BulmaCSS
+- check out youtube snippet for embedding
+- make function for replaying video
