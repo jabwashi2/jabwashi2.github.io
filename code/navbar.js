@@ -31,13 +31,10 @@ const template = document.createElement("template");
             float: right;
         }
 
-
-  
         .dropdown {display: block; overflow: hidden;}
 
         .dropdown-content {display: none; z-index: 1;}
-
-        //.dropdown-content a {text-decoration: none; display: block; text-align: left;}
+        .dropdown-content a {background-color: #883452;}
 
         .dropdown:hover .dropdown-content {display: block;}
 

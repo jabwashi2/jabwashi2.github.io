@@ -16,15 +16,15 @@ class Project_Mini extends HTMLElement {
         super();
         this._imgSRC = "images/placeholder-square.jpg";
         this._title = "Default Title";
-        this._btnLocation = "";
         this._imgAltText = "placeholder image";
+        this._url = "#";
 
         this.attachShadow({mode: "open"});
         this.shadowRoot.appendChild(template.content.cloneNode(true));
     }
 
     static get observedAttributes() {
-        return ["data-imgSRC", "data-title", "data-btnLocation", "data-imgAltText"];
+        return ["data-imgSRC", "data-title", "data-imgAltText", "data-url"];
     }
 
     connectedCallback(){
@@ -43,6 +43,9 @@ class Project_Mini extends HTMLElement {
         if(attributeName == "data-imgAltText"){
             this._imgAltText = newValue;
         }
+        if(attributeName == "data-url"){
+            this._url = newValue;
+        }
         this.render();
       }
   
@@ -50,16 +53,19 @@ class Project_Mini extends HTMLElement {
       render(){
         this.innerHTML = `
         <img src="${this._imgSRC}" alt="${this._imgAltText}">
-        <h1>${this._title}</h1>
-        <p onclick="showDetails(${this._title})">???</p>
+        <a href="${this._url}">${this._title}</a>
         `;
   
-        // // Is the template loaded?
-        // let a = this.shadowRoot.querySelector("a");
-        // // If so, update the shadow DOM
-        // if(a){
-        //   a.href = this._url;
-        //   a.textContent = this._name;
-        // }
+        // Is the template loaded?
+        let a = this.shadowRoot.querySelector("a");
+        // If so, update the shadow DOM
+        if(a){
+          a.href = this._url;
+          a.textContent = this.title;
+        }
     }
 }
+
+customElements.define('my-thumbnail', Thumbnail);
+
+export {Thumbnail};
