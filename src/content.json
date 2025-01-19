@@ -1,0 +1,120 @@
+{
+    "categories":
+        [
+            {
+                "title": "Web Projects",
+                "path": "/Web-Projects",
+                "id": "web-link"
+            },
+            {
+                "title": "Unity Projects",
+                "path": "/Unity-Projects",
+                "id": "unity-link"
+            },
+            {
+                "title": "DirectX11 Projects",
+                "path": "/DirectX11-Projects",
+                "id": "dx11-link"
+            }
+        ],
+    "about": 
+        {
+            "title": "Hi, I'm Jabrecia!",
+            "image": "/images/my_gamer_pfp.png",
+            "content": "I am a well-rounded programmer, front-end web developer, game developer and software engineer. I have a deep love for visualizations and visual design, and I am very passionate about code optimization. Using resources efficiently while ensuring the end product is visually appealing is my strong suit, and I would love to bring this dedication to your team! My ideal roles would be entry level positions in front-end web development, graphics programming, software engineering, and engine/core tech programming. When I am not typing away at my computer, I enjoy film, music, reading, and gaming. Some of my favorite games right now include Baldur's Gate 3, Hades, and Tears of the Kingdom. Feel free to reach out to me about anything mentioned here, or even something else entirely :)"
+        },
+    "projects":
+        [
+            {
+                "title": "Audio Visualizer",
+                "category": "web",
+                "tools": ["JavaScript", "WebAudio API", "HTML Canvas"],
+                "status": "Complete",
+                "shortdesc": "An interactive audio experience where you curate your visuals the way YOU want. ",
+                "link": "https://people.rit.edu/jlw4958/330/audio-visualizer/",
+                "images": 
+                [
+                    {
+                        "image": "/images/audio-vis-main.png",
+                        "text": "capture of the audio visualizer, there is a pink heart with a light and dark pink gradient in the backgroun, dark pink barsm and white sparkles. the background of the website is light pink with small purple dots"
+                    },
+                    {
+                        "image": "/images/audio-vis-full-screen.png",
+                        "text": "capture of the audio visualizer, this time it is full screen and no heart is on screen"
+                    },
+                    {
+                        "image": "/images/audio-vis-no-bg.png",
+                        "text": "capture of the audio visualizer, this time with no gradient in the background"
+                    },
+                    {
+                        "image": "/images/audio-vis-no-heart.png",
+                        "text": "capture of the audio visualizer, every element is present except for the heart"
+                    }
+                ],
+                "pagecontent": [
+                    "This audio visualizer utilizes the WebAudio API as well as the HTML canvas to display dynamic shapes and visualizations. I worked on this project for about one week in March 2023. The hearts, bars, sparkles, and gradient background are all drawn using the HTML Canvas. I alter the size of the hearts and the heights of the bars using the buckets of frequencies received from the WebAudio API. Larger hearts and higher bars correlate to higher frequencies, while smaller hearts and lower bars correlate to lower frequencies. The presence of these frequencies together creates a unique overlaying effect on the hearts and a casual drop off on the bars at the bottom.",
+                    "The process of creating this Audio Visualizer involved sketching, planning, and implementation. In the sketching phase, I drew several designs for what I wanted the visualizer to look like and received some peer feedback. In the planning phase, I took time to figure out how to draw individual elements, like the heart and the sparkles. In the implementation phase, I combined the HTML Canvas and the WebAudio API to add movement and variability. Since I was using a lot of new technology for this project, I encountered some issues getting the separate APIs to interact the way I intended. Taking data from the WebAudio API and using it to alter the HTML Canvas proved difficult, but not impossible. The solution was patience, making sure I took the time to understand how the WebAudio API returned data (in buckets) and how to use those buckets to change the values being drawn on the canvas. In the end, the result was amazing and received recognition from my peers and my professors.",
+                    "As of right now, this project is finished. I may return to it as I learn more about the technologies it uses, there are likely many places where things can be more efficient (for example, the way I draw the sparkles is very repetitive, so I'd like to make that more efficient). Overall, though, I'm happy with where things stand."
+                ],
+                "id": "audio-vis"
+            },
+            {
+                "title": "The Black Game Dev Hub",
+                "category": "web",
+                "tools": ["HTML", "CSS", "JavaScript", "HTML Web-Components"],
+                "status": "Complete",
+                "shortdesc": "A simple website sharing resources for Black Game Developers to grow.",
+                "link": "https://devpost.com/software/black-game-dev-hub",
+                "images": 
+                [
+                    {
+                        "image": "/images/bgdh-main-page.png",
+                        "text": "a web page with a white background, a logo saying BGDH is in the upper left corner, 'Black Game Dev Hub' in red, yellow, dark green, and light green text. the navigation bar is underlined with dark green, the text is in dark green"
+                    },
+                    {
+                        "image": "/images/bgdh-example-page.png",
+                        "text": "web page with a white background and a logo saying BGDH in the upper left corner, a list of Companies"
+                    },
+                    {
+                        "image": "/images/bgdh-about-page.png",
+                        "text": "a web page featuring the about page of the bgdh website and a photo of the website's creator (me!)"
+                    }
+                ],
+                "pagecontent": [
+                    "The Black Game Dev Hub (BGDH) features countless resources essential for any Black game developer, listing information from important game creators to follow to learning resources and tools. As the solo developer, I wanted to offer a place for inspiration as well as an opportunity for learning.",
+                    "The process of creating this website involved creating a Figma mockup, developing several custom web components, then the final step of matching the design as closely to the mockup as possible. The Figma mockup was made for visual guidance alone, so there's no interactivity available there. In order to keep the website simple, I planned for the navigation to be reliant on a navbar that persists across pages, so I created a custom HTML component that I could reuse. I also made components for each link. Originally, I intended for each resource linked to contain an image and a small description. Due to time constraints, I was unable to include all of that data, so there is only a link for each resource as of right now. My greatest obstacle came with creating the components based on the information in each category's array. I walked myself in a few circles and overcomplicated things, but after taking a moment to step back and decompress, I came back to the project with a fresh set of eyes and was able to complete the website.",
+                    "As of right now, this website is complete. In the future, I'd like to take out some of the redundancy in the project. The way I add all of the resources to each page is the same, but I have a different function for each page, which I'm not fond of. However, given the 24 hour time constraint, I like the place this website is in."
+                ],
+                "id": "bgdh"
+            },
+            {
+                "title": "Simple Graphics Engine",
+                "category": "directx11",
+                "tools": ["C++", "DirectX11", "HLSL"],
+                "status": "Complete",
+                "shortdesc": "A simple graphics engine created with DirectX11.",
+                "link": "https://youtu.be/20cqGLz0A3o?si=4JGGB4JuxTLdQsIW",
+                "images": 
+                [
+                    {
+                        "image": "/images/dx11-entities.png",
+                        "text": "5 3D shapes: a metallic cube, a wooden cylinder, a wooden corkscrew, a metallic sphere, and a wooden torus(donut). a pink sunset sky with clouds in the background. light reflects off of the metallic shapes. there are shadows underneath the shapes"
+                    },
+                    {
+                        "image": "/images/dx11-entities-shadow-map.png",
+                        "text": "5 3D shapes with an image of their shadow map to the left"
+                    },
+                    {
+                        "image": "/images/dx11-entities-transformed.png",
+                        "text": "the cube, cylinder, and torus have been rotated and stretched to show transformations, the menu that changes their properties is on the left"
+                    }
+                ],
+                "pagecontent": [
+                    "This simple graphics engine was created using DirectX11, and can render 3D objects within a simple scene. It supports lighting, shadows, materials, specularity, and a simple post processing effect (box blur). The development of this project was supported by my professor, and updates to the engine gradually became more self guided as time went on.",
+                    "The process of creating this engine was iterative. We began with making sure simple shapes could be drawn, then slowly progressed to more and more complex shapes and later implementing core craphics principles (such as lighting equations). Most of the problems I encountered in developing this engine involved the many mathematical equations we needed to implement. At times, though I could understand what was being calculated, I couldn't easily wrap my head around using the equation to get the desired end result. Since this was a class project, I had many resources available to me, including my professor, so I was able to figure things out in the end. Patience was important, as well as communicating when issues arose.",
+                    "Currently, this project is complete. In the future, I would like to expand upon the functionality of this graphics engine to allow for easier additions of 3D models, deleting of models, and more post processing effects (such as bloom and gaussian blur), as well as general performance improvements."
+                ],
+                "id": "dx11-engine"
+            }
+        ]
+}
