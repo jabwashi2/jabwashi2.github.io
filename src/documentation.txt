@@ -1,0 +1,56 @@
+X- SectionPage.js is for displaying projects within specific Categories, while ProjectCategoriesPage.js is for displaying only the general categories. The buttons on ProjectCategoriesPage.js will take you to variants of SectionPage.js.X
+^ not using this idea right now, each category gets its own page. may come back to this later, though.
+- projects no longer need a path since we are now using ids
+
+Navbar goes at the top of every page (makes navigation easier, too)
+
+content organization in the json file:
+- projects
+    - category
+    - title
+    - language(s)/tools
+    - status
+    - short description
+    - image(s)/video(s)
+        - list of file paths
+    - content for page
+        - subheadings
+        - descriptions
+    - link/path
+
+for each category page, pass in the following data:
+- title
+- desc
+- status
+- id
+- category
+
+for project subheadings/subjects:
+- Project Description
+- Process & Problems & Solutions
+- What's Next?
+
+things to add later:
+- highlights section on home page
+    - can use the image carousel component that will be made soon
+    - make an overload function perhaps
+- all projects page
+- image carousel component (done)
+- clean README
+
+projects to display in portfolio:
+- graphics engine (dx11) (link to yt video) (link to updated code, also)
+- audio visualizer (web)
+- BWH2024 (web) (link to devpost)
+- Casper's Cat Cafe (unity)
+
+Image carousel library (current):
+- https://getbootstrap.com/docs/4.0/components/carousel/
+
+Navbar library (current):
+- https://getbootstrap.com/docs/5.3/components/navbar/
+
+
+notes:
+- make bg of thumbnail a project image?
+- add tools section to about section on home page
