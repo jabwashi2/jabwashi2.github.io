@@ -1,0 +1,94 @@
+Project: Personal website/portfolio
+Creator: Jabrecia Washington
+
+*******Plans:*******
+
+*******Organization:*******
+- Navbar
+- Projects
+- What Am I Up To?
+    - unfinished projects, small things I'm practicing with
+- About
+- Contact
+
+*******Navbar:*******
+- Link to each section <a href="#projects">
+- sticky navbar, stay at the top always
+
+*******Projects:*******
+- Featured:
+    - Audio Visualizer
+    - Switch Color
+    - Casper's Cat Cafe
+    - Original Personal Website
+
+- Project template:
+    - Slideshow of images/gifs/videos
+    - Title
+    - Team size + Role
+    - Technologies/Tools
+    - Language(s)
+    - Description
+
+*******What Am I Up To?*******
+- Formatted similarly to projects
+- Less detailed, focus is on showcasing constant learning
+
+Featured:
+- Graphics Engine
+- Unreal Learning
+- mention game in progress
+
+- WAIUT Template:
+    - What am I doing?
+    - Why am I doing it?
+    - What's next? (if anything)
+
+*******About:*******
+- Name
+- Intro
+    - who I am
+    - what I do
+    - career goals
+    - interests
+- Involvements
+    - IGM Ambassadors
+    - ColorStack
+    - Rewriting the Code
+    - Black In Gaming
+
+*******Contact:*******
+- email
+- linkedin
+- github
+- resume
+- and more to come ;)
+
+
+*******Styles:*******
+- solid bg color
+- each section is like a "bubble" (rounded suqare)
+
+*******"Demo Reel" Content:*******
+- gameplay clips
+- process clips
+- images/screenshots
+
+references:
+- https://www.w3schools.com/css/css_navbar_horizontal.asp
+- https://www.w3schools.com/css/css3_borders.asp
+- https://cssgradient.io/
+- https://fontawesome.com/search?q=email&o=r&m=free&f=classic
+
+fonts:
+- Headers: https://fonts.google.com/specimen/Red+Hat+Display?category=Sans+Serif,Display&vfonly=true&classification=Display&stroke=Sans+Serif
+- Paragraphs: https://fonts.google.com/specimen/Raleway?category=Sans+Serif,Display&vfonly=true&stroke=Sans+Serif
+
+*******Component Plans:*******
+- 
+
+
+*******Notes:*******
+- try using BulmaCSS
+- check out youtube snippet for embedding
+- make function for replaying video
