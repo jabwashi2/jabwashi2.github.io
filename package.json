@@ -1,7 +1,7 @@
 {
   "name": "jabwashi2.github.io",
   "version": "0.1.0",
-  "homepage": "http://jabwashi2.github.io/jabwashi2.github.io",
+  "homepage": "http://jabwashi.com",
   "private": true,
   "dependencies": {
     "@coreui/coreui": "^5.2.0",
@@ -23,7 +23,7 @@
     "test": "react-scripts test",
     "eject": "react-scripts eject",
     "predeploy": "npm run build",
-    "deploy": "gh-pages -d build"
+    "deploy": "gh-pages -b main -d build"
   },
   "eslintConfig": {
     "extends": [
