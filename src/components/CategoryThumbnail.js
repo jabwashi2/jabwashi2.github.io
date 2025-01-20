@@ -1,3 +1,5 @@
+import { Link } from "react-router-dom";
+
 /*\
     category thumbnails need the following:
     - Title
@@ -7,11 +9,12 @@
 export function CategoryThumbnail(props) {
     return (
         <div id={props.id} class="category" >
-            <a id="category-link" href={props.path}>
+            <Link to={props.path} id="category-link"><h1>{props.title}</h1></Link>
+            {/* <a id="category-link" href={props.path}>
                 <div>
                     <h1>{props.title}</h1>
                 </div>
-            </a>
+            </a> */}
         </div>
     );
 };
