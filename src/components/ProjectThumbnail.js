@@ -5,7 +5,7 @@ export function ProjectThumbnail(props) {
     return (
         <>
             <div class="project-thumbnail" id={props.title}>
-                <Link to={ props.category === "web" ? "/Web-Projects/" + props.id : props.category === "unity" ? "/Unity-Projects/" + props.id : "/DirectX11-Projects/" + props.id}>
+                <Link to={ props.category === "web" ? "/Web-Projects/" + props.id : props.category === "uiux" ? "/UIUX-Projects/" + props.id : "/DirectX11-Projects/" + props.id}>
                     <h1 class="projthumb-text" id="projthumb-title">{props.title}</h1>
                 </Link>
                 {/* ^will link to a custom version of ProjectPage.js */}

@@ -1,0 +1,46 @@
+When updating the website, follow these steps to ensure everything works properly.
+
+*Adding New Content*
+- 'Content' refers to a project to be featured on the website. All content is held within 'content.json'
+
+- To add new content, find 'projects' within content.json
+    - each project requires the following:
+        - title (string)
+        - category (string)
+        - tools (string array)
+        - status (string: WIP or Complete)
+        - shortdesc (string: short description of project)
+        - link (string: links to project/demo externally)
+        - images (object array)
+            - image (string: link to image)
+            - text (string: alt text description for image)
+        -  pagecontent (string array)
+            - description of project
+            - description of process
+            - current status
+        - id (string)
+
+*Adding a New Category*
+- Adding a new project category requires updating a few different files.
+
+- First, go to 'categories' in 'content.json'
+    - each category requires the following:
+        - title (string)
+        - path (string: formatted '/Category-Title')
+        - id (string: formatted 'category-link')
+- Next, create a page in 'pages' title 'CategoryName.js', where 'CategoryPage' is the name of the new category you wish to add
+- You can copy the page content from one of the other category pages, but be sure to update the first div id, the h1 Title, and the project category in the query.
+- Then, check 'index.css' and add any styles the project thumbnail may need (likely similar to other thumbnails)
+- Next, in 'index.js', import the Category Page you've just created
+- At the end of the router, create 2 paths: one for the page and one for the page with an id appended to the end (follow the format of the others)
+- Be sure to update the navbar as well
+- Check the query in 'ProjectThumbnail.js'
+
+*Removing a Category*
+- When removing a category, check the following files to ensure it is properly removed:
+    - content.json
+    - index.js
+    - any styles in index.css
+
+*Removing Content*
+

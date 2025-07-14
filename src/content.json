@@ -7,14 +7,14 @@
                 "id": "web-link"
             },
             {
-                "title": "Unity Projects",
-                "path": "/Unity-Projects",
-                "id": "unity-link"
-            },
-            {
                 "title": "DirectX11 Projects",
                 "path": "/DirectX11-Projects",
                 "id": "dx11-link"
+            },
+            {
+                "title": "UI/UX Projects",
+                "path": "/UIUX-Projects",
+                "id": "uiux-link"
             }
         ],
     "about": 
@@ -115,6 +115,50 @@
                     "Currently, this project is complete. In the future, I would like to expand upon the functionality of this graphics engine to allow for easier additions of 3D models, deleting of models, and more post processing effects (such as bloom and gaussian blur), as well as general performance improvements."
                 ],
                 "id": "dx11-engine"
+            },
+            {
+                "title": "InventHer Mobile App Mockup",
+                "category": "uiux",
+                "tools": ["Figma"],
+                "status": "Complete",
+                "shortdesc": "The initial mockup for the InventHer mobile app.",
+                "link": "https://www.figma.com/design/qfEXHq0HX3bNPV9aZJO1DH/InventHer-App-Mockup?t=PkPBomwwvstTG0QC-1",
+                "images": [
+                    {
+                        "image": "/images/Login.png",
+                        "text": "A pink background with text reading 'Welcome Back', and two areas to enter a username and password"
+                    },
+                    {
+                        "image": "/images/Join.png",
+                        "text":""
+                    },
+                    {
+                        "image":"/images/Events.png",
+                        "text":""
+                    },
+                    {
+                        "image":"/images/Events_Popup.png",
+                        "text":""
+                    },
+                    {
+                        "image":"/images/Community_Discover.png",
+                        "text":""
+                    },
+                    {
+                        "image":"/images/Community_Joined.png",
+                        "text":""
+                    },
+                    {
+                        "image":"/images/Profile.png",
+                        "text":""
+                    }
+                ],
+                "pagecontent": [
+                    "This mockup was made for InventHer, a nonprofit aimed at increasing the number of women in leadership roles through mentorship, workshops, and building community. When I became a volunteer developer, they were planning on creating a mobile application for all members and prospective members to use. I was brought onto the team to help with this application, and the first step of the process was to create a mockup.",
+                    "This mockup uses the original design of the InventHer website as design inspiration, though the site has since been redesigned. Though slightly outdated, the colors mirror InventHer's branding appropriately and utilize the same palette and visuals as the website did. As for the layout of the pages, I wanted the process of using the app to feel natural, so I used some common layouts I have seen across other applications, such as navigation at the bottom of the page, and the use of tabs on a page with different versions.",
+                    "The layout of this mockup will remain the same for the time being, but the colors and decor will be updated to align with InventHer's new branding guidelines. Once the mockup reaches a point the entire team is happy with, we will move forward with development of the app."
+                ],
+                "id": "uiux"
             }
         ]
 }
