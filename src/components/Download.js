@@ -1,4 +1,4 @@
-import Pdf from '../Jabrecia_Washington_Resume.pdf'
+import Pdf from '../JabreciaWashington_Resume.pdf'
 
 export function Download(){
     return(
