@@ -1,5 +1,7 @@
 When updating the website, follow these steps to ensure everything works properly.
 
+++ WHEN ALL CHANGES ARE DONE AND READY TO BE DEPLOYED, 'npm run build' THEN 'npm run deploy' ++
+
 *Adding New Content*
 - 'Content' refers to a project to be featured on the website. All content is held within 'content.json'
 
@@ -43,4 +45,4 @@ When updating the website, follow these steps to ensure everything works properl
     - any styles in index.css
 
 *Removing Content*
-
+Just delete it lol
