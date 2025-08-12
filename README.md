@@ -5,7 +5,7 @@ This project was bootstrapped with [Create React App](https://github.com/faceboo
 This portfolio contains projects within the following categories:
 - **Web**
 - **DirectX 11**
-- **Unity**
+- **UI/UX**
 
 More projects will be added in the future as I work on them :)
 
