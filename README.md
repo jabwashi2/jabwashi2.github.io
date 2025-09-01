@@ -28,3 +28,5 @@ You can see more of my thought process, planning, and other comments in my [docu
 - [ ] More animations :D
   - [ ] Fade in on page load
   - [ ] Text to move with boxes on hover
+- [ ] give project thumbnails a background image
+- [ ] add tools section to about section on home page
