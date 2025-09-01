@@ -19,3 +19,12 @@ Speaking of the project pages, they are all made using the [ProjectPage](https:/
 Utilizing React components made this website much more flexible and scalable. Now, if I wish to add more categories, or more projects, all I have to do is go to the JSON file I have created an the components will handle the rest. Unfortunately, I currently need to make each category page myself, but I am working on having those generate similarly to the project pages.
 
 You can see more of my thought process, planning, and other comments in my [documentation](https://github.com/jabwashi2/jabwashi2.github.io/blob/main/src/documentation.txt).
+
+## Updates to Come
+- [ ] Update personal photo
+- [ ] Rewrite personal statement/about me
+- [ ] Add ChangelingVR to projects
+- [ ] Resize text (too wide on large screens)
+- [ ] More animations :D
+  - [ ] Fade in on page load
+  - [ ] Text to move with boxes on hover
