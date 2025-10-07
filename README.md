@@ -24,9 +24,14 @@ You can see more of my thought process, planning, and other comments in my [docu
 - [ ] Update personal photo
 - [ ] Rewrite personal statement/about me
 - [ ] Add ChangelingVR to projects
+- [ ] Add other side projects
 - [ ] Resize text (too wide on large screens)
 - [ ] More animations :D
   - [ ] Fade in on page load
   - [ ] Text to move with boxes on hover
+  - [ ] Smoother on hover animations for project thumbnails
+  - [ ] Smoother on hover animations for navbar and dropdown
+  - [ ] Text animation on scroll
 - [ ] give project thumbnails a background image
 - [ ] add tools section to about section on home page
+- [ ] (stretch) add interactive version of projects onto project pages
