@@ -35,3 +35,4 @@ You can see more of my thought process, planning, and other comments in my [docu
 - [ ] give project thumbnails a background image
 - [ ] add tools section to about section on home page
 - [ ] (stretch) add interactive version of projects onto project pages
+- [ ] embed links in paragraphs in JSON file
