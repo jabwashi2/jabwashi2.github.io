@@ -32,7 +32,10 @@ You can see more of my thought process, planning, and other comments in my [docu
   - [ ] Smoother on hover animations for project thumbnails
   - [ ] Smoother on hover animations for navbar and dropdown
   - [ ] Text animation on scroll
-- [ ] give project thumbnails a background image
-- [ ] add tools section to about section on home page
-- [ ] (stretch) add interactive version of projects onto project pages
-- [ ] embed links in paragraphs in JSON file
+- [ ] Give project thumbnails a background image
+- [ ] Add tools section to about section on home page
+- [ ] (stretch) Add interactive version of projects onto project pages
+- [ ] Embed links in paragraphs in JSON file
+- [ ] Order of sections in navbar is inconsistent with order on main screen
+- [ ] Longer project descriptions become walls of text
+- [ ] Include videos in image carousel

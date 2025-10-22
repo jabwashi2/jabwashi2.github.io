@@ -125,37 +125,37 @@
                 "link": "https://www.figma.com/design/qfEXHq0HX3bNPV9aZJO1DH/InventHer-App-Mockup?t=PkPBomwwvstTG0QC-1",
                 "images": [
                     {
-                        "image": "/images/Login.png",
+                        "image": "/images/inventher/Login.png",
                         "text": "A pink background with text reading 'Welcome Back', and two areas to enter a username and password"
                     },
                     {
-                        "image": "/images/Join.png",
+                        "image": "/images/inventher/Join.png",
                         "text":""
                     },
                     {
-                        "image":"/images/Events.png",
+                        "image":"/images/inventher/Events.png",
                         "text":""
                     },
                     {
-                        "image":"/images/Events_Popup.png",
+                        "image":"/images/inventher/Events_Popup.png",
                         "text":""
                     },
                     {
-                        "image":"/images/Community_Discover.png",
+                        "image":"/images/inventher/Community_Discover.png",
                         "text":""
                     },
                     {
-                        "image":"/images/Community_Joined.png",
+                        "image":"/images/inventher/Community_Joined.png",
                         "text":""
                     },
                     {
-                        "image":"/images/Profile.png",
+                        "image":"/images/inventher/Profile.png",
                         "text":""
                     }
                 ],
                 "pagecontent": [
                     "This mockup was made for InventHer, a nonprofit aimed at increasing the number of women in leadership roles through mentorship, workshops, and building community. When I became a volunteer developer, they were planning on creating a mobile application for all members and prospective members to use. I was brought onto the team to help with this application, and the first step of the process was to create a mockup.",
-                    "This mockup uses the original design of the InventHer website as design inspiration, though the site has since been redesigned. Though slightly outdated, the colors mirror InventHer's branding appropriately and utilize the same palette and visuals as the website did. As for the layout of the pages, I wanted the process of using the app to feel natural, so I used some common layouts I have seen across other applications, such as navigation at the bottom of the page, and the use of tabs on a page with different versions.",
+                    "This mockup uses the original design of the InventHer website as design inspiration, though the site has since been redesigned. Though slightly outdated, the colors mirror InventHer's branding appropriately and utilize the same palette and visuals as the website did. As for the layout of the pages, I wanted the process of using the app to feel natural, so I used some common layouts I have seen across other applications, such as navigation at the bottom of the page, and the use of tabs on a page with different versions. The main goal here was maintaining consistency between the app and the website, as users will be interacting with both, and many who are currently a part of InventHer or working with InventHer will have grown accustomed to their branding via their website. Keeping that branding consistent ensures that InventHer has a clear identity no matter who is interacting with them or where they are interacting from. Another priority was reducing clutter and reducing the amount of movement throughout the app that the user needs to do. For example, on the Events and Community pages, there are two different tabs the user can interact with to see relevant information. This reduces the need for extra pages in the navigation bar at the bottom of the page. This also keeps both of those pages clean and keeps events the user registered for or their saved communities easily accessible.",
                     "The layout of this mockup will remain the same for the time being, but the colors and decor will be updated to align with InventHer's new branding guidelines. Once the mockup reaches a point the entire team is happy with, we will move forward with development of the app."
                 ],
                 "id": "inventher-mobile"
@@ -166,9 +166,33 @@
                 "tools": ["Figma"],
                 "status": "WIP",
                 "shortdesc": "The lo-fi mockup for the mobile version of a productivity app.",
-                "link": "https://www.figma.com/design/tSRUtuQtAQ1DzQd1TUk9kL/Productivity-App-Mockup?node-id=0-1&t=Nf7TS4UsFb5koyy6-1",
-                "images": [],
-                "pagecontent": ["This lo-fi mockup was made for a productivity app that I am helping a friend develop . The app is inspired by Todoist and includes several other quality of life changes that my f"],
+                "link": "https://youtu.be/yhMp0BaOSMc",
+                "images": [
+                    {
+                        "image": "/images/productivity/productivity_emptypg.png",
+                        "text" :""
+                    },
+                    {
+                        "image": "/images/productivity/productivity_home.png",
+                        "text" :""
+                    },
+                    {
+                        "image": "/images/productivity/productivity_menu.png",
+                        "text" :""
+                    },
+                    {
+                        "image": "/images/productivity/productivity_create.png",
+                        "text" :""
+                    },
+                    {
+                        "image": "/images/productivity/productivity_saved.png",
+                        "text" :""
+                    }
+                ],
+                "pagecontent": ["This lo-fi mockup was made for a productivity app that I am helping a friend develop. The app is inspired by Todoist and includes several other quality of life changes inspired by GitHub project boards. In designing this lo-fi mockup, I wanted to prioritize pulling in the key features of both products that inspired the creation of this project in the first place.",
+                "One important feature to include was nesting. Projects contain sections, which contain tasks, and the user's screen can become very cluttered without the opportunity for nesting. The side panel was very important as it streamlines project, section, and task management, removing the requirement for the user to go into a menu to find settings and do such management there. One unique aspect of this project is the ability to create 'views', which will allow users to choose specific filters and save those to a 'view' for easier access. For example, if a user wanted to see tasks with a green label that are due within the next week, they could save those filters to a 'view' so that they can easily access those tasks. This removes the need for repeatedly applying the same filters to one's tasks. The design and layout of this page takes from a standard to do list app since the functionality is the focus there. The main goal for all of these pages is to keep things simple and reduce clutter, especially once the project is ready for mobile. I started with the mobile design first since scaling upwards tends to be easier than scaling down.",
+                "This mockup is complete on its own, though further updates and iterations will come during development. Also, the desktop mockup is a WIP and will also need to go through its own rounds of critique and updates. The mobile version can be viewed on figma right now. There are currently no interactions implemented, but the hi-fi mockup will include them if we determine that those interactions are necessary to assist our development."
+            ],
                 "id": "productivity-lofi"
             }
         ]
