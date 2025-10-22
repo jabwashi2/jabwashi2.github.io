@@ -158,7 +158,18 @@
                     "This mockup uses the original design of the InventHer website as design inspiration, though the site has since been redesigned. Though slightly outdated, the colors mirror InventHer's branding appropriately and utilize the same palette and visuals as the website did. As for the layout of the pages, I wanted the process of using the app to feel natural, so I used some common layouts I have seen across other applications, such as navigation at the bottom of the page, and the use of tabs on a page with different versions.",
                     "The layout of this mockup will remain the same for the time being, but the colors and decor will be updated to align with InventHer's new branding guidelines. Once the mockup reaches a point the entire team is happy with, we will move forward with development of the app."
                 ],
-                "id": "uiux"
+                "id": "inventher-mobile"
+            },
+            {
+                "title": "Productivity App Lo-Fi  Mockup",
+                "category": "uiux",
+                "tools": ["Figma"],
+                "status": "WIP",
+                "shortdesc": "The lo-fi mockup for the mobile version of a productivity app.",
+                "link": "https://www.figma.com/design/tSRUtuQtAQ1DzQd1TUk9kL/Productivity-App-Mockup?node-id=0-1&t=Nf7TS4UsFb5koyy6-1",
+                "images": [],
+                "pagecontent": ["This lo-fi mockup was made for a productivity app that I am helping a friend develop . The app is inspired by Todoist and includes several other quality of life changes that my f"],
+                "id": "productivity-lofi"
             }
         ]
 }
