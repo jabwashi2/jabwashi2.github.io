@@ -1,5 +1,5 @@
 import { Link } from "react-router-dom";
-import { motion } from "motion/react"
+import { motion } from "motion/react";
 
 /*\
     category thumbnails need the following:

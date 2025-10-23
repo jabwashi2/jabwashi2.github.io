@@ -22,21 +22,19 @@ You can see more of my thought process, planning, and other comments in my [docu
 
 ## Updates to Come
 - [x] Update personal photo
-- [ ] Rewrite personal statement/about me
+- [x] Rewrite personal statement/about me
 - [ ] Add ChangelingVR to projects
 - [ ] Add other side projects
-- [ ] Resize text (too wide on large screens)
 - [ ] More animations :D
   - [ ] Fade in on page load
   - [ ] Text to move with boxes on hover
-  - [ ] Smoother on hover animations for project thumbnails
+  - [x] Smoother on hover animations for project thumbnails
   - [ ] Smoother on hover animations for navbar and dropdown
   - [ ] Text animation on scroll
 - [ ] Give project thumbnails a background image
 - [ ] Add tools section to about section on home page
 - [ ] (stretch) Add interactive version of projects onto project pages
 - [ ] Embed links in paragraphs in JSON file
-- [ ] Order of sections in navbar is inconsistent with order on main screen
-- [ ] Longer project descriptions become walls of text
+- [x] Order of sections in navbar is inconsistent with order on main screen
 - [ ] Include videos in image carousel
-- [ ] Italicize tools on project specific pages
+- [x] Italicize tools on project specific pages

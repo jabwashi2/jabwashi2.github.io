@@ -35,19 +35,19 @@
                 "images": 
                 [
                     {
-                        "image": "/images/audio-vis-main.png",
+                        "image": "/images/audio-vis/audio-vis-main.png",
                         "text": "capture of the audio visualizer, there is a pink heart with a light and dark pink gradient in the backgroun, dark pink barsm and white sparkles. the background of the website is light pink with small purple dots"
                     },
                     {
-                        "image": "/images/audio-vis-full-screen.png",
+                        "image": "/images/audio-vis/audio-vis-full-screen.png",
                         "text": "capture of the audio visualizer, this time it is full screen and no heart is on screen"
                     },
                     {
-                        "image": "/images/audio-vis-no-bg.png",
+                        "image": "/images/audio-vis/audio-vis-no-bg.png",
                         "text": "capture of the audio visualizer, this time with no gradient in the background"
                     },
                     {
-                        "image": "/images/audio-vis-no-heart.png",
+                        "image": "/images/audio-vis/audio-vis-no-heart.png",
                         "text": "capture of the audio visualizer, every element is present except for the heart"
                     }
                 ],
@@ -68,15 +68,15 @@
                 "images": 
                 [
                     {
-                        "image": "/images/bgdh-main-page.png",
+                        "image": "/images/bgdh/bgdh-main-page.png",
                         "text": "a web page with a white background, a logo saying BGDH is in the upper left corner, 'Black Game Dev Hub' in red, yellow, dark green, and light green text. the navigation bar is underlined with dark green, the text is in dark green"
                     },
                     {
-                        "image": "/images/bgdh-example-page.png",
+                        "image": "/images/bgdh/bgdh-example-page.png",
                         "text": "web page with a white background and a logo saying BGDH in the upper left corner, a list of Companies"
                     },
                     {
-                        "image": "/images/bgdh-about-page.png",
+                        "image": "/images/bgdh/bgdh-about-page.png",
                         "text": "a web page featuring the about page of the bgdh website and a photo of the website's creator (me!)"
                     }
                 ],
@@ -97,15 +97,15 @@
                 "images": 
                 [
                     {
-                        "image": "/images/dx11-entities.png",
+                        "image": "/images/dx11/dx11-entities.png",
                         "text": "5 3D shapes: a metallic cube, a wooden cylinder, a wooden corkscrew, a metallic sphere, and a wooden torus(donut). a pink sunset sky with clouds in the background. light reflects off of the metallic shapes. there are shadows underneath the shapes"
                     },
                     {
-                        "image": "/images/dx11-entities-shadow-map.png",
+                        "image": "/images/dx11/dx11-entities-shadow-map.png",
                         "text": "5 3D shapes with an image of their shadow map to the left"
                     },
                     {
-                        "image": "/images/dx11-entities-transformed.png",
+                        "image": "/images/dx11/dx11-entities-transformed.png",
                         "text": "the cube, cylinder, and torus have been rotated and stretched to show transformations, the menu that changes their properties is on the left"
                     }
                 ],

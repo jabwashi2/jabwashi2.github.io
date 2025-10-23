@@ -9,10 +9,13 @@ function App() {
   return (
     <div className="App">
       <Navbar />
-      <h1 id="intro">Welcome To Jabrecia Washington's Portfolio</h1>
-      <ProjectCategoriesPage props={dataJSON}/>
-      <AboutPage />
-      <ContactPage />
+      <div id="main">
+        <h1 id="intro">⟡ Welcome To Jabrecia Washington's Portfolio ⟡</h1>
+        <ProjectCategoriesPage props={dataJSON}/>
+        <AboutPage />
+        <ContactPage />
+      </div>
+
     </div>
   );
 }
