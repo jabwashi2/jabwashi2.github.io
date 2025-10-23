@@ -126,31 +126,31 @@
                 "images": [
                     {
                         "image": "/images/inventher/Login.png",
-                        "text": "A pink background with text reading 'Welcome Back', and two areas to enter a username and password"
+                        "text": "A pink background with text reading Welcome Back, and two areas to enter a username and password. The InventHer logo sits atop the page, Invent is in pink and Her is in black. A blue squiggly line is at the top of the page, a pink squiggly line is at the bottom. There is a pink login button at underneath the two text fields."
                     },
                     {
                         "image": "/images/inventher/Join.png",
-                        "text":""
+                        "text":"A pink background with text reading Join Us, and three areas to enter an email, username, and password. The InventHer logo sits atop the page, Invent is in pink and Her is in black. A blue squiggly line is at the top of the page, a pink squiggly line is at the bottom. There is a pink join button at underneath the two text fields."
                     },
                     {
                         "image":"/images/inventher/Events.png",
-                        "text":""
+                        "text":"A light pink background with a dark pink navigation bar at the bottom of the screen. The navigation bar has a calendar icon, an icon with three people (for community), an icon with a letter i within a circle (for information), and a single person icon (for user profile). The word Events is bold at the top of the page and written in pink. Two tabs are underneath reading Upcoming and Registered. Upcoming is filled in with dark pink. A filter button sits underneath on the left side, and on the right is a sort and calendar button. Three rectangles showing event information (name, time, location) as well as a View Event button for each are displayed underneath."
                     },
                     {
                         "image":"/images/inventher/Events_Popup.png",
-                        "text":""
+                        "text":"A light pink background with a dark pink navigation bar at the bottom of the screen. The navigation bar has a calendar icon, an icon with three people (for community), an icon with a letter i within a circle (for information), and a single person icon (for user profile). It's the same as the previous Events page, except the background has been slightly grayedout and a pop up sits on top that reads 'Welcome to the InventHer Events Page! Here you can view upcoming events, join events, and view your registered events. Events are a great way to get connected and get the most out of what InventHer has to offer!' Beneath the text, there is a pink button that says 'Let's Go!'"
                     },
                     {
                         "image":"/images/inventher/Community_Discover.png",
-                        "text":""
+                        "text":"A light pink background with a dark pink navigation bar at the bottom of the screen. The navigation bar has a calendar icon, an icon with three people (for community), an icon with a letter i within a circle (for information), and a single person icon (for user profile). There is a 'Community' title with three group discovery cards underneath. Each card features a placeholder image, 'Group Name', 'Group Description', and a 'View Group' button. The right tab up top shows 'Discover' is selected."
                     },
                     {
                         "image":"/images/inventher/Community_Joined.png",
-                        "text":""
+                        "text":"A light pink background with a dark pink navigation bar at the bottom of the screen. The navigation bar has a calendar icon, an icon with three people (for community), an icon with a letter i within a circle (for information), and a single person icon (for user profile). There is a 'Community' title, and three cards underneath. Each group is represented by a square card with 'Group Name' and a 'Chat' button. The right tab up above shows that 'Your Groups' is selected."
                     },
                     {
                         "image":"/images/inventher/Profile.png",
-                        "text":""
+                        "text":"A light pink background with a dark pink navigation bar at the bottom of the screen. The navigation bar has a calendar icon, an icon with three people (for community), an icon with a letter i within a circle (for information), and a single person icon (for user profile). A user's profile is displayed. The screen says 'Your Name', 'Joined 2025', and 'She/her/hers' next to a circular placeholder for a profile picture. Below this is a 'Personal Bio' section with placeholder text. A 'Notifications?' toggle switch is shown beneath and is toggled off. A gear icon for settings is in the bottom right corner."
                     }
                 ],
                 "pagecontent": [

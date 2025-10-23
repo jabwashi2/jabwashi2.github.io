@@ -39,3 +39,4 @@ You can see more of my thought process, planning, and other comments in my [docu
 - [ ] Order of sections in navbar is inconsistent with order on main screen
 - [ ] Longer project descriptions become walls of text
 - [ ] Include videos in image carousel
+- [ ] Italicize tools on project specific pages
