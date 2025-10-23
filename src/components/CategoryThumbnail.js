@@ -1,4 +1,5 @@
 import { Link } from "react-router-dom";
+import { motion } from "motion/react"
 
 /*\
     category thumbnails need the following:
@@ -8,13 +9,8 @@ import { Link } from "react-router-dom";
 
 export function CategoryThumbnail(props) {
     return (
-        <div id={props.id} class="category" >
+        <motion.div whileHover={{ scale: 1.1, transition: { duration: 0.2 }}} transition={{ duration: 0.3 }} id={props.id} class="category" >
             <Link to={props.path} id="category-link"><h1>{props.title}</h1></Link>
-            {/* <a id="category-link" href={props.path}>
-                <div>
-                    <h1>{props.title}</h1>
-                </div>
-            </a> */}
-        </div>
+        </motion.div>
     );
 };

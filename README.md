@@ -21,7 +21,7 @@ Utilizing React components made this website much more flexible and scalable. No
 You can see more of my thought process, planning, and other comments in my [documentation](https://github.com/jabwashi2/jabwashi2.github.io/blob/main/src/documentation.txt).
 
 ## Updates to Come
-- [ ] Update personal photo
+- [x] Update personal photo
 - [ ] Rewrite personal statement/about me
 - [ ] Add ChangelingVR to projects
 - [ ] Add other side projects

@@ -242,11 +242,6 @@ p, a, ul {
   .category {
     width: 30vw;
     height: 30vw;
-    transition: width .5s, height .5s;
-  }
-  .category:hover {
-    width: 32vw;
-    height: 32vw;
   }
 
   #about {
