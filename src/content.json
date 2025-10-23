@@ -170,23 +170,23 @@
                 "images": [
                     {
                         "image": "/images/productivity/productivity_emptypg.png",
-                        "text" :""
+                        "text" :"A dark-themed mobile app screen that features a hamburger menu icon and a search bar at the top. The main content area displays the text 'Nothings Here!' and 'Create your first task', centered on the screen. Below the text is a large circular plus icon, indicating an action to add a new item."
                     },
                     {
                         "image": "/images/productivity/productivity_home.png",
-                        "text" :""
+                        "text" :"A dark-themed mobile app screen tthat displays a task list. At the top, there's a hamburger menu icon, a search bar, and filter icons. The tasks are organized into sections: 'Chores' (with tasks like Dishes, Laundry, Vacuum, Clean bathtub), 'Errands' (with Groceries, Dry Cleaning), and 'Volunteering' (with Shelter, Blanket Making, YMCA, which includes sub-tasks). Each task has a radio button, and each section has an 'Add Task' button."
                     },
                     {
                         "image": "/images/productivity/productivity_menu.png",
-                        "text" :""
+                        "text" :"A dark-themed mobile app screen showing a side panel menu. The menu includes sections for 'Saved Views' (Meetings, Home/Chores, Website/Database), 'Projects' (Home, School, Website, with 'Website' expanded to show Front-end, Back-end, Database, Other, and an 'Add Section' option), and 'Labels'. An 'Add New Project' button and 'Import'/'Export' options are also visible."
                     },
                     {
                         "image": "/images/productivity/productivity_create.png",
-                        "text" :""
+                        "text" :"A dark-themed mobile app screen that features input fields for 'Task Name' with an 'Add Label' button, dropdowns for 'Project' and 'Section', and date pickers for 'Preferred Completion Date' and 'Deadline'. There's a 'Reminders' section with an 'Add Reminder' button, a text area for 'Description', and a 'Subtasks' section with an 'Add Subtask' button. Dropdowns for 'Size' and 'Priority' (with options None, Low, Medium, High) are present. A large 'Add Task' button is at the bottom. A back arrow and trash icon are in the top bar."
                     },
                     {
                         "image": "/images/productivity/productivity_saved.png",
-                        "text" :""
+                        "text" :"A dark-themed mobile app screen that displays a list of tasks under the 'Meetings' category, sorted by deadline. Tasks are grouped by date: 'Today', 'Tomorrow', 'Sunday Sept. 1', and 'Monday Sept. 2'. Each task entry includes a radio button, time (e.g., 10:45), and a description (e.g., Q1 Analysis). A hamburger menu icon and search bar are at the top."
                     }
                 ],
                 "pagecontent": ["This lo-fi mockup was made for a productivity app that I am helping a friend develop. The app is inspired by Todoist and includes several other quality of life changes inspired by GitHub project boards. In designing this lo-fi mockup, I wanted to prioritize pulling in the key features of both products that inspired the creation of this project in the first place.",
