@@ -257,6 +257,7 @@ p, a, ul {
 
   #about-img {
     width: 15%;
+    border-radius: 30px;
   }
 
   #contact-info {
