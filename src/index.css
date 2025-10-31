@@ -84,7 +84,7 @@ p, a, ul {
   padding: 5rem;
 }
 .category h1 {
-  font-size: 1.7em;
+  font-size: 1.9em;
   color: #0d0c16;
 }
 #web-link {
@@ -149,12 +149,14 @@ p, a, ul {
   color: #fcfcff;
 }
 
+.proj-thumb-link {
+  margin: auto;
+  margin-top: 1.2em;
+}
 .project-thumbnail {
   width: 75vw;
   height: 50vw;
   background-color: #dccca3;
-  margin: auto;
-  margin-top: 1.2em;
   border-radius: 30px;
 }
 
@@ -163,12 +165,12 @@ p, a, ul {
   padding-top: 1.3em;
 }
 #projthumb-title {
-  font-size: 1.3rem;
+  font-size: 1.2rem;
   color: #0d0c16;
 }
 #projthumb-desc, #projthumb-status {
   color: #0d0c16;
-  font-size: .75rem;
+  font-size: .8rem;
 }
 
 #proj-tools-thumb {
@@ -177,7 +179,7 @@ p, a, ul {
 }
 #proj-tools-thumb p {
   display: inline;
-  font-size: .7rem;
+  font-size: .9rem;
   padding-left: .5em;
 }
 

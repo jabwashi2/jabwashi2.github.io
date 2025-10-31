@@ -4,11 +4,10 @@ import { motion } from "motion/react";
 export function ProjectThumbnail(props) {
     // let project = props.projects.find(project => project.title === props.title);
     return (
-        <>
+        <Link to={ props.category === "web" ? "/Web-Projects/" + props.id : props.category === "uiux" ? "/UIUX-Projects/" + props.id : "/DirectX11-Projects/" + props.id} class="proj-thumb-link">
             <motion.div whileHover={{ scale: 1.1, transition: { duration: 0.2 }}} transition={{ duration: 0.3 }} class="project-thumbnail" id={props.title}>
-                <Link to={ props.category === "web" ? "/Web-Projects/" + props.id : props.category === "uiux" ? "/UIUX-Projects/" + props.id : "/DirectX11-Projects/" + props.id}>
                     <h1 class="projthumb-text" id="projthumb-title">{props.title}</h1>
-                </Link>
+                
                 {/* ^will link to a custom version of ProjectPage.js */}
                 <p class="projthumb-text" id="projthumb-desc">{props.desc}</p>
                 <div id="proj-tools-thumb">
@@ -16,8 +15,7 @@ export function ProjectThumbnail(props) {
                 </div>
                 <p class="projthumb-text" id="projthumb-status"><em>{props.status}</em></p>
             </motion.div>
-            
-        </>
+        </Link>
     );
 };
 
