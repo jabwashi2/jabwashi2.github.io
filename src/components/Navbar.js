@@ -15,19 +15,19 @@ export function Navbar() {
                 <div class="collapse navbar-collapse" id="navbarSupportedContent">
                 <ul class="navbar-nav me-auto mb-2 mb-lg-0">
                     <li class="nav-item">
-                        <HashLink to={"/#about"} class="navlink">About</HashLink>
+                        <HashLink to={"/#about"} className="navlink">About</HashLink>
                     </li>
                     <li class="nav-item">
-                        <HashLink to={"/#contact"} class="navlink">Contact</HashLink>
+                        <HashLink to={"/#contact"} className="navlink">Contact</HashLink>
                     </li>
                     <li class="nav-item dropdown">
                         <a class="nav-link dropdown-toggle navlink" href="/" role="button" data-bs-toggle="dropdown" aria-expanded="false">
                             Projects
                         </a>
                         <ul class="dropdown-menu">
-                            <li class="projthumbnail"><Link to={"/Web-Projects"} class="navlink">Web Development</Link></li>
-                            <li class="projthumbnail"><Link to={"/DirectX11-Projects"} class="navlink">DirectX11 Development</Link></li>
-                            <li class="projthumbnail"><Link to={"/UIUX-Projects"} class="navlink">UI/UX Development</Link></li>
+                            <li class="projthumbnail"><Link to={"/Web-Projects"} className="navlink">Web Development</Link></li>
+                            <li class="projthumbnail"><Link to={"/DirectX11-Projects"} className="navlink">DirectX11 Development</Link></li>
+                            <li class="projthumbnail"><Link to={"/UIUX-Projects"} className="navlink">UI/UX Development</Link></li>
                         </ul>
                     </li>
                 </ul>

@@ -9,9 +9,9 @@ import { motion } from "motion/react";
 
 export function CategoryThumbnail(props) {
     return (
-        <Link to={props.path}>
-            <motion.div whileHover={{ scale: 1.1, transition: { duration: 0.2 }}} transition={{ duration: 0.3 }} id={props.id} class="category" >
-                <h1 id="category-link">{props.title}</h1>
+        <Link to={props.path} className="category-link">
+            <motion.div whileHover={{ scale: 1.1, transition: { duration: 0.2 }}} transition={{ duration: 0.3 }} id={props.id} class="category">
+                <h1 id="category-title">{props.title}</h1>
             </motion.div>
         </Link>
     );
