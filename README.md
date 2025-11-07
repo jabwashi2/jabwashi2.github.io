@@ -25,7 +25,7 @@ You can see more of my thought process, planning, and other comments in my [docu
 - [x] Rewrite personal statement/about me
 - [ ] Add other side projects
 - [ ] More animations :D
-  - [x] Fade in on page load
+  - [ ] Fade in on page load (need to redo)
   - [ ] Text to move with boxes on hover
   - [x] Smoother on hover animations for project thumbnails
   - [ ] Smoother on hover animations for navbar and dropdown
@@ -36,4 +36,5 @@ You can see more of my thought process, planning, and other comments in my [docu
 - [x] Order of sections in navbar is inconsistent with order on main screen
 - [ ] Include videos in image carousel
 - [x] Italicize tools on project specific pages
+- [ ] Work Experience section on home page
 - [ ] (stretch) Add interactive version of projects onto project pages
