@@ -24,6 +24,8 @@ You can see more of my thought process, planning, and other comments in my [docu
 - [x] Update personal photo
 - [x] Rewrite personal statement/about me
 - [ ] Add other side projects
+  - [ ] Twitch Streaming
+  - [ ] Instagram Posts
 - [ ] More animations :D
   - [ ] Fade in on page load (need to redo)
   - [ ] Text to move with boxes on hover
@@ -33,8 +35,10 @@ You can see more of my thought process, planning, and other comments in my [docu
 - [ ] Give project thumbnails a background image/gif
 - [ ] Add tools section to about section on home page
 - [ ] Embed links in paragraphs in JSON file
-- [x] Order of sections in navbar is inconsistent with order on main screen
+- [ ] Order of sections in navbar is inconsistent with order on main screen
+- [ ] Home button needed in navbar
 - [ ] Include videos in image carousel
 - [x] Italicize tools on project specific pages
 - [ ] Work Experience section on home page
+- [ ] Add section for contract work info
 - [ ] (stretch) Add interactive version of projects onto project pages

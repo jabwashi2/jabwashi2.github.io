@@ -66,7 +66,15 @@ const router = createBrowserRouter([
   {
     path: "/UIUX-Projects/:id",
     element: <ProjectPage />
-  }
+  },
+  // {
+  //   path: "/Game-Projects",
+  //   element: <GamePage />
+  // },
+  // {
+  //   path: "/Game-Projects/:id",
+  //   element: <ProjectPage />
+  // }
 ]);
 
 const root = ReactDOM.createRoot(document.getElementById('root'));
