@@ -41,4 +41,5 @@ You can see more of my thought process, planning, and other comments in my [docu
 - [x] Italicize tools on project specific pages
 - [ ] Work Experience section on home page
 - [ ] Add section for contract work info
+- [ ] Make project thumbnails fully clickable (not just the links)
 - [ ] (stretch) Add interactive version of projects onto project pages
