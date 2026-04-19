@@ -215,15 +215,33 @@
                 "category": "game",
                 "tools": ["Godot", "GitHub", "GDScript"],
                 "status": "WIP",
-                "shortdesc": "",
+                "shortdesc": "Questing is a 2D isometric 16bit love letter to classic adventure games.",
                 "link": "https://store.steampowered.com/app/3087670/Questing",
                 "images": 
                 [
-
+                    {
+                        "image": "/images/questing/shoe_cobbler.png",
+                        "text" :"A small pixel art room with wooden furniture. The main character stands in front of a wooden counter with a pie in front of him. There is a shoe sticking out of the pie. The text above the character reads: Narrator: It's a shoe cobbler."
+                    },
+                    {
+                        "image": "/images/questing/villagetown.png",
+                        "text" :"A large pixel art village. Each building and environmental element (trees, bushes, rocks) has a blue box on top of it displaying their collision boxes."
+                    },
+                    {
+                        "image": "/images/questing/karusai_speaks.png",
+                        "text" :"The image is zoomed in on a part of the pixel art village, focusing on three characters. The mayor, an old man with a gray beard, stands at the top. In front of him stands the main character, and to the main character's right stands Karusai, a blonde man with silver armor and red pants. The text box at the bottom of the screen includes a profile photo of Karusai, and the following text: All in a day's work."
+                    },
+                    {
+                        "image": "/images/questing/karusai_bye.png",
+                        "text" :"The image is zoomed in on a part of the pixel art village, focusing on two characters: the main character, and to the main character's right, Karusai, a blonde man with silver armor and red pants. The text box at the bottom of the screen includes a profile photo of Karusai, and the following text: We shall reconvene tomorrow. I have...matters I must attend to."
+                    }
+                    
                 ],
                 "pagecontent": 
-                [ "Questing is 'A satirical love-letter to classic 16-bit adventure games, about a chosen hero who never wanted to be chosen.' A nod to games such as A Link to the Past, Chrono Trigger, and Secret of Mana, Questing combines the nostalgic feel of 16-bit adventure games with the witty humor of our lead, Ian Lynch."
-
+                [ 
+                    "Questing is 'A satirical love-letter to classic 16-bit adventure games, about a chosen hero who never wanted to be chosen.' A nod to games such as A Link to the Past, Chrono Trigger, and Secret of Mana, Questing combines the nostalgic feel of 16-bit adventure games with the witty humor of our lead, Ian Lynch. This is a fully volunteer project currently.",
+                    "I joined this team after the demo was completed, so my work has been focusing on what comes after. Before beginning work on the game, I created a GitHub repo to make updates and reviews easier to manage. I also added a project board to the repo to help the team keep track of work that needs to be done. There have been many hurdles in coming onto this team since systems were set up prior to my joining the team, most notably the narration and cutscene systems (for myself, at least). However, we have all worked collaboratively to understand these systems and work with them. This is the first time I have joined a team in the middle of development, so this has been a wonderful chance to experience what it's like to learn about the setup of a project on the fly while also being flexible enough to handle any future changes. Currently, I'm adding in new dialogue and interactions that the team lead Ian Lynch has written. It's been super fun to learn how to use Godot and adapt to all of the new things I'm finding that the old development team created.",
+                    "The project is still in development, and we are aiming to have the Demo 2.0 completed by 2027. "
                 ],
                 "id": "quest"
             },
@@ -245,6 +263,23 @@
                     "My work on this project is done! I'm excited to see what the HotSaus team has planned in the future, as well as what future fellows will bring to the table. List of achievements: Developed React.js search component in alignment with brand guidelines, enhanced user experience by refining search item swipe animations with CSS animations, engineered user feed interactions and display, focusing on common user patterns on social sites"
                 ],
                 "id": "hotsaus"
+            },
+            {
+                "title": "HeartRace",
+                "category": "game",
+                "tools": ["Ren'Py"],
+                "status": "Complete (updates coming!)",
+                "shortdesc": "Follow Lupe as she navigates the conflicts and feelings in the San Antonio Charreada.",
+                "link": "",
+                "images": 
+                [
+
+                ],
+                "pagecontent": 
+                [
+
+                ],
+                "id": ""
             }
         ]
 }
