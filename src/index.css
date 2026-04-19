@@ -252,7 +252,7 @@ p, a, ul {
     display: flex;
     justify-content: space-evenly;
     flex-wrap: wrap;
-    column-gap: 7vw;
+    column-gap: 6.6vw;
     row-gap: 2vw;
     padding: 2em;
   }

@@ -25,13 +25,18 @@
                 "title": "Side Quests",
                 "path": "/Side-Quests",
                 "id": "sidequests-link"
+            },
+            {
+                "title": "Freelance",
+                "path": "/Freelance",
+                "id": "freelance-link"
             }
         ],
     "about": 
         {
             "title": "Hi, I'm Jabrecia!",
             "image": "/images/my_gamer_pfp.png",
-            "content": "I am a well-rounded front-end web developer and software engineer who keeps Jesus at the forefront of all that I do. I have a deep love for visualizations and visual design, and I am very passionate about code optimization. Using resources efficiently while ensuring the end product is visually appealing is my strong suit, and I would love to bring this dedication to your team! I also deeply enjoy graphics programming and I am pursuing graduate studies to further my knowledge and find new ways to use graphics programming across creative fields. Currently, my work focuses on front-end web development and UI/UX. My ideal roles would be entry level positions in front-end web development, software engineering, UI programming, and UX design. When I am not typing away at my computer, I enjoy watching movies, listening to music, reading, and gaming. Feel free to contact me using any of the links below! :)"
+            "content": "I am a well-rounded front-end web developer and software engineer who keeps Jesus at the forefront of all that I do. I have a deep love for visualizations and visual design, and I am very passionate about code optimization. Using resources efficiently while ensuring the end product is visually appealing is my strong suit, and I would love to bring this dedication to your team or project! I also deeply enjoy graphics programming and I am pursuing graduate studies to further my knowledge and find new ways to use graphics programming across creative fields. Currently, my work focuses on front-end web development and UI/UX. My ideal roles would be entry level positions in front-end web development, software engineering, UI programming, and UX design. When I am not typing away at my computer, I enjoy watching movies, listening to music, reading, and gaming. Feel free to contact me using any of the links below! :)"
         },
     "projects":
         [
@@ -171,10 +176,10 @@
                 "id": "inventher-mobile"
             },
             {
-                "title": "Productivity App Lo-Fi  Mockup",
+                "title": "Productivity App Lo-Fi Mockup (Mobile)",
                 "category": "uiux",
                 "tools": ["Figma"],
-                "status": "WIP",
+                "status": "Complete",
                 "shortdesc": "The lo-fi mockup for the mobile version of a productivity app.",
                 "link": "https://youtu.be/yhMp0BaOSMc",
                 "images": [
@@ -204,6 +209,127 @@
                 "This mockup is complete on its own, though further updates and iterations will come during development. Also, the desktop mockup is a WIP and will also need to go through its own rounds of critique and updates. The mobile version can be viewed on figma right now. There are currently no interactions implemented, but the hi-fi mockup will include them if we determine that those interactions are necessary to assist our development."
             ],
                 "id": "productivity-lofi"
+            },
+            {
+                "title": "Questing",
+                "category": "game",
+                "tools": ["Godot", "GitHub", "GDScript"],
+                "status": "WIP",
+                "shortdesc": "",
+                "link": "https://store.steampowered.com/app/3087670/Questing",
+                "images": 
+                [
+
+                ],
+                "pagecontent": 
+                [ "Questing is 'A satirical love-letter to classic 16-bit adventure games, about a chosen hero who never wanted to be chosen.' A nod to games such as A Link to the Past, Chrono Trigger, and Secret of Mana, Questing combines the nostalgic feel of 16-bit adventure games with the witty humor of our lead, Ian Lynch."
+
+                ],
+                "id": "quest"
+            },
+            {
+                "title": "HotSaus (hiihat Tech Fellowship)",
+                "category": "web",
+                "tools": "",
+                "status": "Complete",
+                "shortdesc": "A social networking site that allows users to connect over the places, products, and services they love.",
+                "link": "https://ayehotsaus.com",
+                "images": 
+                [
+
+                ],
+                "pagecontent": 
+                [
+                    "HotSaus is a social networking site that allows users to connect over the places, products, and services they love. Suggest a new restaurant to your friends, let your parents know about a new hairstylist in town, the possibilities are endless. HotSaus allows users to be honest about the things they truly love. Through it's unique receipts functionality, users can see real opinions from real people, and swipe through services with ease.",
+                    "As a Tech Fellow, I was helping to develop HotSaus (formerly hiihat) and bring it to a stage that was presentable for acquiring funding. My work focused on building up the user facing side of the search engine. I created a positive user interaction experience while also ensuring that users on mobile and web devices will be able to easily and enjoyable utilize our product. Lots of communication was needed for this project since I was working with a backend developer, product designer, branding specialist, and the team that owns HotSaus. There were some bumps along the way, including some slight miscommunication between the developers, designers, and owners that caused some blockages. However, we were able to resolve the matter in an efficient manner that allowed us enough time to complete our final deliverable: a social feed. The social feed served as our 'final project' for the fellowship. Some technical issues I ran into came about when setting up new API endpoints in order to gather different user information for the feeds and ensuring styling and animation was consistent across devices. Tweaks were made, updates occurred, and, alongside the backend dev Kayley Tenney, the social feed was created.",
+                    "My work on this project is done! I'm excited to see what the HotSaus team has planned in the future, as well as what future fellows will bring to the table. List of achievements: Developed React.js search component in alignment with brand guidelines, enhanced user experience by refining search item swipe animations with CSS animations, engineered user feed interactions and display, focusing on common user patterns on social sites"
+                ],
+                "id": "hotsaus"
+            },
+            {
+                "title": "",
+                "category": "",
+                "tools": "",
+                "status": "",
+                "shortdesc": "",
+                "link": "",
+                "images": 
+                [
+
+                ],
+                "pagecontent": 
+                [
+
+                ],
+                "id": ""
+            },
+            {
+                "title": "",
+                "category": "",
+                "tools": "",
+                "status": "",
+                "shortdesc": "",
+                "link": "",
+                "images": 
+                [
+
+                ],
+                "pagecontent": 
+                [
+
+                ],
+                "id": ""
+            },
+            {
+                "title": "",
+                "category": "",
+                "tools": "",
+                "status": "",
+                "shortdesc": "",
+                "link": "",
+                "images": 
+                [
+
+                ],
+                "pagecontent": 
+                [
+
+                ],
+                "id": ""
+            },
+            {
+                "title": "",
+                "category": "",
+                "tools": "",
+                "status": "",
+                "shortdesc": "",
+                "link": "",
+                "images": 
+                [
+
+                ],
+                "pagecontent": 
+                [
+
+                ],
+                "id": ""
+            },
+            {
+                "title": "",
+                "category": "",
+                "tools": "",
+                "status": "",
+                "shortdesc": "",
+                "link": "",
+                "images": 
+                [
+
+                ],
+                "pagecontent": 
+                [
+
+                ],
+                "id": ""
             }
         ]
 }
