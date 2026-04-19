@@ -254,13 +254,33 @@
                 "link": "https://ayehotsaus.com",
                 "images": 
                 [
+                    {
+                        "image": "/images/hotsaus/search_component.png",
+                        "text" :"The image has a white background. On the right, there is a screenshot of the mockup for the search component. First, in the component (on the left), there is red and black text that reads HotSaus (pronounced hot sauce). The text beneath is black and reads: Discover, find, and save Black-owned like never before. The text circle icon sits in place of an icon. There is a black box for entering search queries, and underneath there is a red button with black text that says Find It. Next, there is black text that says Got a Pass? and underlined red text that says Drop it here. Finally, there is black text that says 2 circle icon in place of an actual icon."
+                    },
+                    {
+                        "image": "/images/hotsaus/social_feed_copied.png",
+                        "text" :"Horizontalk screenshot of the mobile view of the search feed. There are 4 feed items on screen. Each item has a heart and a dark blue black box. The boxes say whether the item was a like or a stash, and the hearts are different depending (red heart with flames for a like, red heart with black outline for a stash). The text above the items reads Test Account's Activity with a share button next to it, and at the very top of the page is the red and white HotSaus title, with a white search bar beneath it."
+                    },
+                    {
+                        "image": "/images/hotsaus/item_card.png",
+                        "text" :"This is a current image of a search result card. The card features a background photo, the title of the location or service, then an address and description. All of the text has a frosted glass background. There is a like button to the top left of the text, it is a red heart with flames and a frosted glass background. To the top right of the text, there is a share button and a flag button. At the very top of the page is the red and white HotSaus title, with a white search bar beneath it."
+                    },
+                    {
+                        "image": "/images/hotsaus/no_results.png",
+                        "text" :"The no results page of the website says We don't have the heat for that...yet in white text. Beneath that, in black text, it says Try switching up your search for better results. Underneath the text, there is a red heart with a black outline and a black drip at the bottom. At the very top of the page is the red and white HotSaus title, with a white search bar beneath it."
+                    },
+                    {
+                        "image": "/images/hotsaus/end_results.png",
+                        "text" :"The end of results page of the website says No more Hotlinks for now. More drip coming soon. in white text. Underneath the text, there is a red heart with a black outline and a black drip at the bottom. At the very top of the page is the red and white HotSaus title, with a white search bar beneath it."
+                    }
 
                 ],
                 "pagecontent": 
                 [
-                    "HotSaus is a social networking site that allows users to connect over the places, products, and services they love. Suggest a new restaurant to your friends, let your parents know about a new hairstylist in town, the possibilities are endless. HotSaus allows users to be honest about the things they truly love. Through it's unique receipts functionality, users can see real opinions from real people, and swipe through services with ease.",
+                    "HotSaus is a social networking site that allows users to connect over the places, products, and services they love. Suggest a new restaurant to your friends, let your parents know about a new hairstylist in town, the possibilities are endless. HotSaus allows users to be honest about the things they truly love. Through it's unique receipts functionality, users can see real opinions from real people, and swipe through results with ease.",
                     "As a Tech Fellow, I was helping to develop HotSaus (formerly hiihat) and bring it to a stage that was presentable for acquiring funding. My work focused on building up the user facing side of the search engine. I created a positive user interaction experience while also ensuring that users on mobile and web devices will be able to easily and enjoyable utilize our product. Lots of communication was needed for this project since I was working with a backend developer, product designer, branding specialist, and the team that owns HotSaus. There were some bumps along the way, including some slight miscommunication between the developers, designers, and owners that caused some blockages. However, we were able to resolve the matter in an efficient manner that allowed us enough time to complete our final deliverable: a social feed. The social feed served as our 'final project' for the fellowship. Some technical issues I ran into came about when setting up new API endpoints in order to gather different user information for the feeds and ensuring styling and animation was consistent across devices. Tweaks were made, updates occurred, and, alongside the backend dev Kayley Tenney, the social feed was created.",
-                    "My work on this project is done! I'm excited to see what the HotSaus team has planned in the future, as well as what future fellows will bring to the table. List of achievements: Developed React.js search component in alignment with brand guidelines, enhanced user experience by refining search item swipe animations with CSS animations, engineered user feed interactions and display, focusing on common user patterns on social sites"
+                    "My work on this project is done! I'm excited to see what the HotSaus team has planned in the future, as well as what future fellows will bring to the table. The project is still in development, however. Check the link above to see what's new! List of achievements: Developed React.js search component in alignment with brand guidelines, enhanced user experience by refining search item swipe animations with CSS animations, engineered user feed interactions and display, focusing on common user patterns on social sites"
                 ],
                 "id": "hotsaus"
             },
@@ -270,7 +290,7 @@
                 "tools": ["Ren'Py"],
                 "status": "Complete (updates coming!)",
                 "shortdesc": "Follow Lupe as she navigates the conflicts and feelings in the San Antonio Charreada.",
-                "link": "",
+                "link": "https://jjaybreezyy.itch.io/heartrace-swak-jam-2026",
                 "images": 
                 [
 
