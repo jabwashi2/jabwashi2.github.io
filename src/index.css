@@ -301,31 +301,7 @@ p, a, ul {
     justify-content: space-between;
   }
 
-  .project-thumbnail {
-    width: 20vw;
-    height: 20vw;
-    justify-content: center;
-    margin: 0 auto;
-    transition: width .5s, height .5s;
-  }
-  .project-thumbnail:hover {
-    width: 37vw;
-    height: 22vw;
-  }
-
-  #projthumb-title {
-    font-size: 1.5rem;
-  }
-  #projthumb-desc, #projthumb-status {
-    font-size: .9rem;
-    padding: .2em;
-  }
-
-  #proj-tools-thumb p {
-    display: inline;
-    font-size: .9rem;
-    padding-left: .5em;
-  }
+  
 
   .carousel {
     width: 75%;

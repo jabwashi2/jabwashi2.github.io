@@ -104,7 +104,7 @@
             },
             {
                 "title": "Simple Graphics Engine",
-                "category": "directx11",
+                "category": "dx11",
                 "tools": ["C++", "DirectX11", "HLSL"],
                 "status": "Complete",
                 "shortdesc": "A simple graphics engine created with DirectX11.",

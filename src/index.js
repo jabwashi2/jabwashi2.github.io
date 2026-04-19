@@ -16,6 +16,7 @@ import {WebPage} from './pages/WebPage'
 import { UnityPage } from "./pages/UnityPage";
 import { DX11Page } from "./pages/DX11Page";
 import { UIUXPage } from './pages/UIUXPage';
+import { GamePage } from './pages/GamePage';
 
 // an array of objects, can create a function that will generate this array based on the project categories
 const router = createBrowserRouter([
@@ -67,14 +68,14 @@ const router = createBrowserRouter([
     path: "/UIUX-Projects/:id",
     element: <ProjectPage />
   },
-  // {
-  //   path: "/Game-Projects",
-  //   element: <GamePage />
-  // },
-  // {
-  //   path: "/Game-Projects/:id",
-  //   element: <ProjectPage />
-  // }
+  {
+    path: "/Game-Projects",
+    element: <GamePage />
+  },
+  {
+    path: "/Game-Projects/:id",
+    element: <ProjectPage />
+  }
 ]);
 
 const root = ReactDOM.createRoot(document.getElementById('root'));
