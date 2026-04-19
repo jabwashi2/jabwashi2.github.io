@@ -230,7 +230,7 @@
             {
                 "title": "HotSaus (hiihat Tech Fellowship)",
                 "category": "web",
-                "tools": "",
+                "tools": ["TypeScript, TailwindCSS, Framer Motion"],
                 "status": "Complete",
                 "shortdesc": "A social networking site that allows users to connect over the places, products, and services they love.",
                 "link": "https://ayehotsaus.com",
@@ -245,91 +245,6 @@
                     "My work on this project is done! I'm excited to see what the HotSaus team has planned in the future, as well as what future fellows will bring to the table. List of achievements: Developed React.js search component in alignment with brand guidelines, enhanced user experience by refining search item swipe animations with CSS animations, engineered user feed interactions and display, focusing on common user patterns on social sites"
                 ],
                 "id": "hotsaus"
-            },
-            {
-                "title": "",
-                "category": "",
-                "tools": "",
-                "status": "",
-                "shortdesc": "",
-                "link": "",
-                "images": 
-                [
-
-                ],
-                "pagecontent": 
-                [
-
-                ],
-                "id": ""
-            },
-            {
-                "title": "",
-                "category": "",
-                "tools": "",
-                "status": "",
-                "shortdesc": "",
-                "link": "",
-                "images": 
-                [
-
-                ],
-                "pagecontent": 
-                [
-
-                ],
-                "id": ""
-            },
-            {
-                "title": "",
-                "category": "",
-                "tools": "",
-                "status": "",
-                "shortdesc": "",
-                "link": "",
-                "images": 
-                [
-
-                ],
-                "pagecontent": 
-                [
-
-                ],
-                "id": ""
-            },
-            {
-                "title": "",
-                "category": "",
-                "tools": "",
-                "status": "",
-                "shortdesc": "",
-                "link": "",
-                "images": 
-                [
-
-                ],
-                "pagecontent": 
-                [
-
-                ],
-                "id": ""
-            },
-            {
-                "title": "",
-                "category": "",
-                "tools": "",
-                "status": "",
-                "shortdesc": "",
-                "link": "",
-                "images": 
-                [
-
-                ],
-                "pagecontent": 
-                [
-
-                ],
-                "id": ""
             }
         ]
 }

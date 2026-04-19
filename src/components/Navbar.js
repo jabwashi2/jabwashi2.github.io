@@ -29,8 +29,9 @@ export function Navbar() {
                         </a>
                         <ul class="dropdown-menu">
                             <li class="projthumbnail"><Link to={"/Web-Projects"} className="navlink">Web Development</Link></li>
-                            <li class="projthumbnail"><Link to={"/DirectX11-Projects"} className="navlink">DirectX11 Development</Link></li>
-                            <li class="projthumbnail"><Link to={"/UIUX-Projects"} className="navlink">UI/UX Development</Link></li>
+                            <li class="projthumbnail"><Link to={"/Game-Projects"} className="navlink">Game Development</Link></li>
+                            <li class="projthumbnail"><Link to={"/UIUX-Projects"} className="navlink">UI/UX</Link></li>
+                            <li class="projthumbnail"><Link to={"/DirectX11-Projects"} className="navlink">DirectX11</Link></li>
                         </ul>
                     </li>
                 </ul>
