@@ -17,6 +17,8 @@ import { UnityPage } from "./pages/UnityPage";
 import { DX11Page } from "./pages/DX11Page";
 import { UIUXPage } from './pages/UIUXPage';
 import { GamePage } from './pages/GamePage';
+import { FreelancePage } from './pages/FreelancePage';
+import { SideQuestPage } from './pages/SideQuestPage';
 
 // an array of objects, can create a function that will generate this array based on the project categories
 const router = createBrowserRouter([
@@ -75,6 +77,14 @@ const router = createBrowserRouter([
   {
     path: "/Game-Projects/:id",
     element: <ProjectPage />
+  },
+  {
+    path: "/Freelance",
+    element: <FreelancePage />
+  },
+  {
+    path: "/Side-Quests",
+    element: <SideQuestPage />
   }
 ]);
 
