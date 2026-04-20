@@ -25,13 +25,18 @@
                 "title": "Side Quests",
                 "path": "/Side-Quests",
                 "id": "sidequests-link"
+            },
+            {
+                "title": "Freelance",
+                "path": "/Freelance",
+                "id": "freelance-link"
             }
         ],
     "about": 
         {
             "title": "Hi, I'm Jabrecia!",
             "image": "/images/my_gamer_pfp.png",
-            "content": "I am a well-rounded front-end web developer and software engineer who keeps Jesus at the forefront of all that I do. I have a deep love for visualizations and visual design, and I am very passionate about code optimization. Using resources efficiently while ensuring the end product is visually appealing is my strong suit, and I would love to bring this dedication to your team! I also deeply enjoy graphics programming and I am pursuing graduate studies to further my knowledge and find new ways to use graphics programming across creative fields. Currently, my work focuses on front-end web development and UI/UX. My ideal roles would be entry level positions in front-end web development, software engineering, UI programming, and UX design. When I am not typing away at my computer, I enjoy watching movies, listening to music, reading, and gaming. Feel free to contact me using any of the links below! :)"
+            "content": "I am a well-rounded front-end web developer and software engineer who keeps Jesus at the forefront of all that I do. I have a deep love for visualizations and visual design, and I am very passionate about code optimization. Using resources efficiently while ensuring the end product is visually appealing is my strong suit, and I would love to bring this dedication to your team or project! I also deeply enjoy graphics programming and I am pursuing graduate studies to further my knowledge and find new ways to use graphics programming across creative fields. Currently, my work focuses on front-end web development and UI/UX. My ideal roles would be entry level positions in front-end web development, software engineering, UI programming, and UX design. When I am not typing away at my computer, I enjoy watching movies, listening to music, reading, and gaming. Feel free to contact me using any of the links below! :)"
         },
     "projects":
         [
@@ -99,7 +104,7 @@
             },
             {
                 "title": "Simple Graphics Engine",
-                "category": "directx11",
+                "category": "dx11",
                 "tools": ["C++", "DirectX11", "HLSL"],
                 "status": "Complete",
                 "shortdesc": "A simple graphics engine created with DirectX11.",
@@ -171,10 +176,10 @@
                 "id": "inventher-mobile"
             },
             {
-                "title": "Productivity App Lo-Fi  Mockup",
+                "title": "Productivity App Lo-Fi Mockup (Mobile)",
                 "category": "uiux",
                 "tools": ["Figma"],
-                "status": "WIP",
+                "status": "Complete",
                 "shortdesc": "The lo-fi mockup for the mobile version of a productivity app.",
                 "link": "https://youtu.be/yhMp0BaOSMc",
                 "images": [
@@ -204,6 +209,118 @@
                 "This mockup is complete on its own, though further updates and iterations will come during development. Also, the desktop mockup is a WIP and will also need to go through its own rounds of critique and updates. The mobile version can be viewed on figma right now. There are currently no interactions implemented, but the hi-fi mockup will include them if we determine that those interactions are necessary to assist our development."
             ],
                 "id": "productivity-lofi"
+            },
+            {
+                "title": "Questing",
+                "category": "game",
+                "tools": ["Godot", "GitHub", "GDScript"],
+                "status": "WIP",
+                "shortdesc": "Questing is a 2D isometric 16bit love letter to classic adventure games.",
+                "link": "https://store.steampowered.com/app/3087670/Questing",
+                "images": 
+                [
+                    {
+                        "image": "/images/questing/shoe_cobbler.png",
+                        "text" :"A small pixel art room with wooden furniture. The main character stands in front of a wooden counter with a pie in front of him. There is a shoe sticking out of the pie. The text above the character reads: Narrator: It's a shoe cobbler."
+                    },
+                    {
+                        "image": "/images/questing/villagetown.png",
+                        "text" :"A large pixel art village. Each building and environmental element (trees, bushes, rocks) has a blue box on top of it displaying their collision boxes."
+                    },
+                    {
+                        "image": "/images/questing/karusai_speaks.png",
+                        "text" :"The image is zoomed in on a part of the pixel art village, focusing on three characters. The mayor, an old man with a gray beard, stands at the top. In front of him stands the main character, and to the main character's right stands Karusai, a blonde man with silver armor and red pants. The text box at the bottom of the screen includes a profile photo of Karusai, and the following text: All in a day's work."
+                    },
+                    {
+                        "image": "/images/questing/karusai_bye.png",
+                        "text" :"The image is zoomed in on a part of the pixel art village, focusing on two characters: the main character, and to the main character's right, Karusai, a blonde man with silver armor and red pants. The text box at the bottom of the screen includes a profile photo of Karusai, and the following text: We shall reconvene tomorrow. I have...matters I must attend to."
+                    }
+                    
+                ],
+                "pagecontent": 
+                [ 
+                    "Questing is 'A satirical love-letter to classic 16-bit adventure games, about a chosen hero who never wanted to be chosen.' A nod to games such as A Link to the Past, Chrono Trigger, and Secret of Mana, Questing combines the nostalgic feel of 16-bit adventure games with the witty humor of our lead, Ian Lynch. This is a fully volunteer project currently.",
+                    "I joined this team after the demo was completed, so my work has been focusing on what comes after. Before beginning work on the game, I created a GitHub repo to make updates and reviews easier to manage. I also added a project board to the repo to help the team keep track of work that needs to be done. There have been many hurdles in coming onto this team since systems were set up prior to my joining the team, most notably the narration and cutscene systems (for myself, at least). However, we have all worked collaboratively to understand these systems and work with them. This is the first time I have joined a team in the middle of development, so this has been a wonderful chance to experience what it's like to learn about the setup of a project on the fly while also being flexible enough to handle any future changes. Currently, I'm adding in new dialogue and interactions that the team lead Ian Lynch has written. It's been super fun to learn how to use Godot and adapt to all of the new things I'm finding that the old development team created.",
+                    "The project is still in development, and we are aiming to have the Demo 2.0 completed by 2027. "
+                ],
+                "id": "quest"
+            },
+            {
+                "title": "HotSaus (hiihat Tech Fellowship)",
+                "category": "web",
+                "tools": ["TypeScript, TailwindCSS, Framer Motion"],
+                "status": "Complete",
+                "shortdesc": "A social networking site that allows users to connect over the places, products, and services they love.",
+                "link": "https://ayehotsaus.com",
+                "images": 
+                [
+                    {
+                        "image": "/images/hotsaus/search_component.png",
+                        "text" :"The image has a white background. On the right, there is a screenshot of the mockup for the search component. First, in the component (on the left), there is red and black text that reads HotSaus (pronounced hot sauce). The text beneath is black and reads: Discover, find, and save Black-owned like never before. The text circle icon sits in place of an icon. There is a black box for entering search queries, and underneath there is a red button with black text that says Find It. Next, there is black text that says Got a Pass? and underlined red text that says Drop it here. Finally, there is black text that says 2 circle icon in place of an actual icon."
+                    },
+                    {
+                        "image": "/images/hotsaus/social_feed_copied.png",
+                        "text" :"Horizontalk screenshot of the mobile view of the search feed. There are 4 feed items on screen. Each item has a heart and a dark blue black box. The boxes say whether the item was a like or a stash, and the hearts are different depending (red heart with flames for a like, red heart with black outline for a stash). The text above the items reads Test Account's Activity with a share button next to it, and at the very top of the page is the red and white HotSaus title, with a white search bar beneath it."
+                    },
+                    {
+                        "image": "/images/hotsaus/item_card.png",
+                        "text" :"This is a current image of a search result card. The card features a background photo, the title of the location or service, then an address and description. All of the text has a frosted glass background. There is a like button to the top left of the text, it is a red heart with flames and a frosted glass background. To the top right of the text, there is a share button and a flag button. At the very top of the page is the red and white HotSaus title, with a white search bar beneath it."
+                    },
+                    {
+                        "image": "/images/hotsaus/no_results.png",
+                        "text" :"The no results page of the website says We don't have the heat for that...yet in white text. Beneath that, in black text, it says Try switching up your search for better results. Underneath the text, there is a red heart with a black outline and a black drip at the bottom. At the very top of the page is the red and white HotSaus title, with a white search bar beneath it."
+                    },
+                    {
+                        "image": "/images/hotsaus/end_results.png",
+                        "text" :"The end of results page of the website says No more Hotlinks for now. More drip coming soon. in white text. Underneath the text, there is a red heart with a black outline and a black drip at the bottom. At the very top of the page is the red and white HotSaus title, with a white search bar beneath it."
+                    }
+
+                ],
+                "pagecontent": 
+                [
+                    "HotSaus is a social networking site that allows users to connect over the places, products, and services they love. Suggest a new restaurant to your friends, let your parents know about a new hairstylist in town, the possibilities are endless. HotSaus allows users to be honest about the things they truly love. Through it's unique receipts functionality, users can see real opinions from real people, and swipe through results with ease.",
+                    "As a Tech Fellow, I was helping to develop HotSaus (formerly hiihat) and bring it to a stage that was presentable for acquiring funding. My work focused on building up the user facing side of the search engine. I created a positive user interaction experience while also ensuring that users on mobile and web devices will be able to easily and enjoyable utilize our product. Lots of communication was needed for this project since I was working with a backend developer, product designer, branding specialist, and the team that owns HotSaus. There were some bumps along the way, including some slight miscommunication between the developers, designers, and owners that caused some blockages. However, we were able to resolve the matter in an efficient manner that allowed us enough time to complete our final deliverable: a social feed. The social feed served as our 'final project' for the fellowship. Some technical issues I ran into came about when setting up new API endpoints in order to gather different user information for the feeds and ensuring styling and animation was consistent across devices. Tweaks were made, updates occurred, and, alongside the backend dev Kayley Tenney, the social feed was created.",
+                    "My work on this project is done! I'm excited to see what the HotSaus team has planned in the future, as well as what future fellows will bring to the table. The project is still in development, however. Check the link above to see what's new! List of achievements: Developed React.js search component in alignment with brand guidelines, enhanced user experience by refining search item swipe animations with CSS animations, engineered user feed interactions and display, focusing on common user patterns on social sites"
+                ],
+                "id": "hotsaus"
+            },
+            {
+                "title": "HeartRace",
+                "category": "game",
+                "tools": ["Ren'Py"],
+                "status": "Complete (updates coming!)",
+                "shortdesc": "Follow Lupe as she navigates the conflicts and feelings in the San Antonio Charreada.",
+                "link": "https://jjaybreezyy.itch.io/heartrace-swak-jam-2026",
+                "images": 
+                [
+                    {
+                        "image": "/images/heartrace/happy_trio.png",
+                        "text" :"A dark sky and mountains are in the background. Three people are in the forefront, Hasen on the left, Mateo in the middle, and Lupe on the right. Hasen wears a dark blue serape poncho and black rebozo over a brown button down shirt. He has a red patternless bandana around his neck, a brown belt, and black jeans. He has long black hair, black eyes, and brown skin. He has a scar on the side of his mouth. He has a sad/annoyed expression, and his hands are at his sides. Mateo has dark brown skin and vitiligo. He wears a green rebozo and green bolo tie over a white button down shirt, a brown belt with a large silver buckle, and blue jeans. He has one hand in his pocket and another over his chest. He has dark brown hair and green eyes, and he has a large grin on his face. Lupe has brown skin, brown eyes, and dark brown hair pulled back. She wears large gold hoops and dark lipstick. She wears a large grin. She wears a white and red adelita dress. A black text box with white decorative outlines is in front of them. The text in the text box says Lupe: Didn't know you knew how to struggle, your majesty."
+                    },
+                    {
+                        "image": "/images/heartrace/lupe_mateo.png",
+                        "text" :"A bright blue sky and mountains are in the background. Two people are in the forefront, Mateo on the left and Lupe on the right. Mateo has dark brown skin and vitiligo. He wears a green rebozo and green bolo tie over a white button down shirt, a brown belt with a large silver buckle, and blue jeans. He has one hand in his pocket and another over his chest. He has dark brown hair and green eyes, and he has a large grin on his face. Lupe has brown skin, brown eyes, and dark brown hair pulled back. She wears large gold hoops and dark lipstick. Her face is turned up in annoyance. She wears a white and red adelita dress. A black text box with white decorative outlines is in front of them. The text in the text box says Mateo: I'll be there in 10."
+                    },
+                    {
+                        "image": "/images/heartrace/lupe_hasen.png",
+                        "text" :"A bright blue sky and mountains are in the background. Two people are in the forefront, Hasen on the left and Lupe on the right. Hasen wears a dark blue serape poncho and black rebozo over a brown button down shirt. He has a red patternless bandana around his neck, a brown belt, and black jeans. He has long black hair, black eyes, and brown skin. He has a scar on the side of his mouth. He has a neutral expression, and his hands are at his sides. Lupe has brown skin, brown eyes, and dark brown hair pulled back. She wears large gold hoops and dark lipstick. She has a shocked facial expression. She wears a white and red adelita dress. A black text box with white decorative outlines is in front of them. The text in the text box says Lupe: OH! No, I'm fine."
+                    },
+                    {
+                        "image": "/images/heartrace/lupe_solo.png",
+                        "text" :"A bright blue sky and mountains are in the background. Lupe stands alone in the center. Lupe has brown skin, brown eyes, and dark brown hair pulled back. She wears large gold hoops and dark lipstick. She wears a large grin. She wears a white and red adelita dress. A black text box with white decorative outlines is in front of them. The text in the text box says Lupe: Are you ready, Chiquita?"
+                    },
+                    {
+                        "image": "/images/heartrace/shocked_trio.png",
+                        "text" :"A dark sky and mountains are in the background. Three people are in the forefront, Hasen on the left, Mateo in the middle, and Lupe on the right. Hasen wears a dark blue serape poncho and black rebozo over a brown button down shirt. He has a red patternless bandana around his neck, a brown belt, and black jeans. He has long black hair, black eyes, and brown skin. He has a scar on the side of his mouth. He has a shocked expression, and his hands are at his sides. Mateo has dark brown skin and vitiligo. He wears a green rebozo and green bolo tie over a white button down shirt, a brown belt with a large silver buckle, and blue jeans. He has one hand in his pocket and another over his chest. He has dark brown hair and green eyes, and he has a shocked expression on his face. Lupe has brown skin, brown eyes, and dark brown hair pulled back. She wears large gold hoops and dark lipstick. She wears a shocked expression. She wears a white and red adelita dress. A black text box with white decorative outlines is in front of them. The text in the text box says Lupe: Okay, we need to get this bull on the ground!"
+                    }
+                ],
+                "pagecontent": 
+                [
+                    "In HeartRace, follow Lupe as she navigates being one of the best performers in the San Antonio Charreada, unexpected conflicts, and even more unexpected feelings. This visual novel was made in collaboration with my friend @Lvc1dArt (on Instagram) over the course of a month. We created it for the 2026 Sealed With A Kiss Jam hosted on itch.io and placed 17th overall out of 106 entries (we also ranked 16th in the sweetness category and 11th in the secondary overall category).",
+                    "I was the writer and developer for this game. This was my first time using Ren'Py, so I kept any written code as simple as I could with the intention of refactoring as time goes on. Writing took the most time since I'm not really used to writing dialogue, but it was very fun to pull on all of my reading experience to shape this story. We decided to lean pretty heavily into some of the stereotypical romance tropes, so there are a lot of cheesy moments that we both really enjoyed. Learning how Ren'Py works was extremely fun, it's a very intuitive engine and everything about the design feels very intentional. It was easy to pick up, and I'm looking forward to adapting the code I've written to more closely mirror the kind of code I'm really capable of writing.",
+                    "The game is finished for now! We're working on updates currently, including story and visual updates. I also want to refactor the code to read in the file I've written the story in, as well as support a few more mechanics and some more background data management to enhance the interactive experience of the game."
+                ],
+                "id": "heartrace"
             }
         ]
 }

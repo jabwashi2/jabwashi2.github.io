@@ -2,10 +2,13 @@
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
-This portfolio contains projects within the following categories:
+This portfolio contains projects and content within the following categories:
 - **Web**
-- **DirectX 11**
+- **Game**
 - **UI/UX**
+- **DirectX 11**
+- **Side Quests**
+- **Freelance**
 
 More projects will be added in the future as I work on them :)
 
@@ -26,20 +29,23 @@ You can see more of my thought process, planning, and other comments in my [docu
 - [ ] Add other side projects
   - [ ] Twitch Streaming
   - [ ] Instagram Posts
+  - [ ] YouTube Channel
 - [ ] More animations :D
   - [ ] Fade in on page load (need to redo)
-  - [ ] Text to move with boxes on hover
+  - [x] Text to move with boxes on hover
   - [x] Smoother on hover animations for project thumbnails
   - [ ] Smoother on hover animations for navbar and dropdown
   - [ ] Text animation on scroll
 - [ ] Give project thumbnails a background image/gif
-- [ ] Add tools section to about section on home page
+- [ ] Add tools/skills section to about section on home page
 - [ ] Embed links in paragraphs in JSON file
-- [ ] Order of sections in navbar is inconsistent with order on main screen
-- [ ] Home button needed in navbar
+- [x] Order of sections in navbar is inconsistent with order on main screen
+- [x] Home button needed in navbar
 - [ ] Include videos in image carousel
 - [x] Italicize tools on project specific pages
 - [ ] Work Experience section on home page
 - [ ] Add section for contract work info
 - [ ] Make project thumbnails fully clickable (not just the links)
+- [ ] Adjust font sizes for small phones (ex: iPhone SE)
+- [ ] Resize project thumbnails for larger computer screens (min-width: 1300px)
 - [ ] (stretch) Add interactive version of projects onto project pages
