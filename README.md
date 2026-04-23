@@ -7,8 +7,8 @@ This portfolio contains projects and content within the following categories:
 - **Game**
 - **UI/UX**
 - **DirectX 11**
-- **Side Quests**
-- **Freelance**
+- **Side Quests (WIP!)**
+- **Freelance (WIP!)**
 
 More projects will be added in the future as I work on them :)
 

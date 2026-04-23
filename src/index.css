@@ -51,7 +51,7 @@ p, a, ul {
   color: #0d0c16;
   text-decoration: none;
 }
-.navlink:hover {
+.navlink:hover, .nav-link:hover {
   color: #7f96ff;
 }
 
@@ -284,6 +284,10 @@ p, a, ul {
   #about-img {
     width: 15%;
     border-radius: 30px;
+  }
+  #about-content {
+    width: 82vw;
+    margin: 0 auto;
   }
 
   #contact-info {

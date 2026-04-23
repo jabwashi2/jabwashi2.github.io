@@ -24,7 +24,7 @@ export function Navbar() {
                         <HashLink to={"/#contact"} className="navlink">Contact</HashLink>
                     </li>
                     <li class="nav-item dropdown">
-                        <a class="nav-link dropdown-toggle navlink" href="/" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                        <a class="nav-link dropdown-toggle" href="/" role="button" data-bs-toggle="dropdown" aria-expanded="false">
                             Projects
                         </a>
                         <ul class="dropdown-menu">
