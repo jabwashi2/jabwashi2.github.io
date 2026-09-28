@@ -48,4 +48,5 @@ You can see more of my thought process, planning, and other comments in my [docu
 - [ ] Make project thumbnails fully clickable (not just the links)
 - [ ] Adjust font sizes for small phones (ex: iPhone SE)
 - [ ] Resize project thumbnails for larger computer screens (min-width: 1300px)
+- [ ] Add ko-fi link1
 - [ ] (stretch) Add interactive version of projects onto project pages
